@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/RocketCommunicationsInc/astro-starter-kit/issues"
   },
-  "homepage": "https://github.com/RocketCommunicationsInc/astro-starter-kit#readme"
+  "homepage": "https://github.com/RocketCommunicationsInc/astro-starter-kit#readme",
+  "dependencies": {
+    "lit-element": "^2.4.0"
+  }
 }
