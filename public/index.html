@@ -2,10 +2,10 @@
     <html lang="en">
         <head>
             <meta charset="utf-8">
-            <link rel="icon" href="./static/favicon.ico" />
+            <link rel="icon" href="/static/favicon.ico" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
             <meta name="Description" content="Put your description here.">
-            <link rel="stylesheet" type="text/css" href="./static/css/astro.css">
+            <link rel="stylesheet" type="text/css" href="/static/css/astro.css">
             
             <title>Astro App</title>
         </head>
@@ -14,10 +14,10 @@
         <div id="astro-app"></div>
 
         <!-- <script type="module" src="index.js"></script> -->
-        <!-- <script type="module" src="./astro/components/rux-global-status-bar/rux-global-status-bar.js"></script> -->
-        <script type="module">
-            import { RuxGlobalStatusBar } from "./astro/components/rux-global-status-bar/rux-global-status-bar";
-            // import { RuxClock } from "./astro/components/rux-clock/rux-clock";
+        <!-- <script type="module" src="/astro/components/rux-global-status-bar/rux-global-status-bar.js"></script> -->
+        <!-- <script type="module">
+            // import { RuxGlobalStatusBar } from "./astro/components/rux-global-status-bar/rux-global-status-bar.js";
+            // import { RuxClock } from "./astro/components/rux-clock/rux-clock.js";
 
             var astroApp = document.getElementById("astro-app");
 
@@ -26,10 +26,10 @@
             p.appendChild(text);
             astroApp.appendChild(p)
 
-            var statusBar = document.createElement("rux-global-status-bar");
-            astroApp.appendChild(statusBar);
-        </script>
-
+            // var statusBar = document.createElement("rux-global-status-bar");
+            // astroApp.appendChild(statusBar);
+        </script> -->
+        <rux-global-status-bar></rux-global-status-bar>
     </body>
 
 </html>
