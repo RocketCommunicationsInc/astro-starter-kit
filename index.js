@@ -11,59 +11,59 @@
 // // var statusBar = document.createElement("rux-global-status-bar");
 // // astroApp.appendChild(statusBar);
 
-const http = require("http");
-const fs = require("fs");
-const path = require("path");
+// const http = require("http");
+// const fs = require("fs");
+// const path = require("path");
 
-const hostname = "localhost";
-const port = 3000;
+// const hostname = "localhost";
+// const port = 3000;
 
-const server = http.createServer((req, res) => {
-  console.log("Request for " + req.url + " by method " + req.method);
+// const server = http.createServer((req, res) => {
+//   console.log("Request for " + req.url + " by method " + req.method);
 
-  if (req.method == "GET") {
-    let fileUrl;
-    if (req.url == "/") fileUrl = "/index.html";
-    else fileUrl = req.url;
+//   if (req.method == "GET") {
+//     let fileUrl;
+//     if (req.url == "/") fileUrl = "/index.html";
+//     else fileUrl = req.url;
 
-    let publicPath = path.resolve("./public" + fileUrl);
+//     let publicPath = path.resolve("./public" + fileUrl);
 
-    const fileExt = path.extname(publicPath);
-    if (fileExt == ".html") {
-      fs.exists(publicPath, (exists) => {
-        if (!exists) {
-          publicPath = path.resolve("./public/404.html");
-          res.statusCode = 404;
-          res.setHeader("Content-Type", "text/html");
-          fs.createReadStream(publicPath).pipe(res);
-          return;
-        }
-        res.statusCode = 200;
-        res.setHeader("Content-Type", "text/html");
-        fs.createReadStream(publicPath).pipe(res);
-      });
-    } else if (fileExt == ".css") {
-      res.statusCode = 200;
-      res.setHeader("Content-Type", "text/css");
-      fs.createReadStream(publicPath).pipe(res);
-    } else if (fileExt == ".js") {
-      res.statusCode = 200;
-      res.setHeader("Content-Type", "application/javascript");
-      fs.createReadStream(publicPath).pipe(res);
-    } else {
-      publicPath = path.resolve("./public/404.html");
-      res.statusCode = 404;
-      res.setHeader("Content-Type", "text/html");
-      fs.createReadStream(publicPath).pipe(res);
-    }
-  } else {
-    publicPath = path.resolve("./public/404.html");
-    res.statusCode = 404;
-    res.setHeader("Content-Type", "text/html");
-    fs.createReadStream(publicPath).pipe(res);
-  }
-});
+//     const fileExt = path.extname(publicPath);
+//     if (fileExt == ".html") {
+//       fs.exists(publicPath, (exists) => {
+//         if (!exists) {
+//           publicPath = path.resolve("./public/404.html");
+//           res.statusCode = 404;
+//           res.setHeader("Content-Type", "text/html");
+//           fs.createReadStream(publicPath).pipe(res);
+//           return;
+//         }
+//         res.statusCode = 200;
+//         res.setHeader("Content-Type", "text/html");
+//         fs.createReadStream(publicPath).pipe(res);
+//       });
+//     } else if (fileExt == ".css") {
+//       res.statusCode = 200;
+//       res.setHeader("Content-Type", "text/css");
+//       fs.createReadStream(publicPath).pipe(res);
+//     } else if (fileExt == ".js") {
+//       res.statusCode = 200;
+//       res.setHeader("Content-Type", "application/javascript");
+//       fs.createReadStream(publicPath).pipe(res);
+//     } else {
+//       publicPath = path.resolve("./public/404.html");
+//       res.statusCode = 404;
+//       res.setHeader("Content-Type", "text/html");
+//       fs.createReadStream(publicPath).pipe(res);
+//     }
+//   } else {
+//     publicPath = path.resolve("./public/404.html");
+//     res.statusCode = 404;
+//     res.setHeader("Content-Type", "text/html");
+//     fs.createReadStream(publicPath).pipe(res);
+//   }
+// });
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+// server.listen(port, hostname, () => {
+//   console.log(`Server running at http://${hostname}:${port}/`);
+// });
