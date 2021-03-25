@@ -16,7 +16,8 @@
   --largeLabelFontSize: 1.125rem;
 
   /* Typography */
-  --fontFamily: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  --fontFamily: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   --fontSize: 1rem; /* 16px */
   --fontSizeXL: 1.125rem;
   --fontSizeLG: 1rem;
@@ -24,7 +25,8 @@
   --fontSizeSM: 0.75rem;
   --fontSizeXS: 0.65rem;
 
-  --fontFamilyLight: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  --fontFamilyLight: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   --fontFamilyMono: "Roboto Mono", monospace;
 
   --colorBlack: rgb(0, 0, 0);
@@ -50,13 +52,12 @@
   --statusLightStandby: rgb(100, 217, 255);
   --statusLightOff: rgb(142, 154, 163);
 
-  --classificationTopSecretSCIBackgroundColor: rgba(252,232,58);
-  --classificationTopSecretBackgroundColor: rgba(255,140,0);
-  --classificationSecretBackgroundColor: rgba(200,16,46);
-  --classificationConfidentialBackgroundColor: rgba(0,51,160);
-  --classificationControlledBackgroundColor: rgba(80,43,133);
-  --classificationUnclassifiedBackgroundColor: rgba(0,122,51);
-
+  --classificationTopSecretSCIBackgroundColor: rgba(252, 232, 58);
+  --classificationTopSecretBackgroundColor: rgba(255, 140, 0);
+  --classificationSecretBackgroundColor: rgba(200, 16, 46);
+  --classificationConfidentialBackgroundColor: rgba(0, 51, 160);
+  --classificationControlledBackgroundColor: rgba(80, 43, 133);
+  --classificationUnclassifiedBackgroundColor: rgba(0, 122, 51);
 
   --colorTag1: rgb(25, 199, 202);
   --colorTag2: rgb(120, 112, 208);
@@ -218,118 +219,111 @@
   --colorGrayDarken4: rgb(41, 41, 41);
 }
 
-
 /* Thin */
 @font-face {
-	font-family: 'Roboto';
-	src: url('/fonts/RobotoThin.woff2') format('woff2'),
-			 url('/fonts/RobotoThin.woff') format('woff');
-	font-weight: 200;
-	font-style: normal;
+  font-family: "Roboto";
+  src: url("../fonts/RobotoThin.woff2") format("woff2"),
+    url("../fonts/RobotoThin.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Roboto';
-	src: url('/fonts/RobotoThinItalic.woff2') format('woff2'),
-			 url('/fonts/RobotoThinItalic.woff') format('woff');
-	font-weight: 200;
-	font-style: italic;
+  font-family: "Roboto";
+  src: url("../fonts/RobotoThinItalic.woff2") format("woff2"),
+    url("../fonts/RobotoThinItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
 }
-
 
 /* Light */
 @font-face {
-	font-family: 'Roboto';
-	src: url('/fonts/RobotoLight.woff2') format('woff2'),
-			 url('/fonts/RobotoLight.woff') format('woff');
-	font-weight: 300;
-	font-style: normal;
+  font-family: "Roboto";
+  src: url("../fonts/RobotoLight.woff2") format("woff2"),
+    url("../fonts/RobotoLight.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Roboto Light';
-	src: url('/fonts/RobotoLight.woff2') format('woff2'),
-			 url('/fonts/RobotoLight.woff') format('woff');
-	font-weight: 300;
-	font-style: normal;
+  font-family: "Roboto Light";
+  src: url("../fonts/RobotoLight.woff2") format("woff2"),
+    url("../fonts/RobotoLight.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Roboto';
-	src: url('/fonts/RobotoLightItalic.woff2') format('woff2'),
-			 url('/fonts/RobotoLightItalic.woff') format('woff');
-	font-weight: 300;
-	font-style: italic;
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
 }
 
 /* Regular */
 @font-face {
-	font-family: 'Roboto';
-	src: url('/fonts/RobotoRegular.woff2') format('woff2'),
-			 url('/fonts/RobotoRegular.woff') format('woff');
-	font-weight: 400;
-	font-style: normal;
+  font-family: "Roboto";
+  src: url("../fonts/RobotoRegular.woff2") format("woff2"),
+    url("../fonts/RobotoRegular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
 }
-
 
 /* Medium */
 @font-face {
-	font-family: 'Roboto';
-	src: url('fonts/RobotoMedium.woff2') format('woff2'),
-			 url('fonts/RobotoMedium.woff') format('woff');
-	font-weight: 500;
-	font-style: normal;
+  font-family: "Roboto";
+  src: url("../fonts/RobotoMedium.woff2") format("woff2"),
+    url("../fonts/RobotoMedium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Roboto';
-	src: url('/fonts/RobotoMediumItalic.woff2') format('woff2'),
-			 url('/fonts/RobotoMediumItalic.woff') format('woff');
-	font-weight: 500;
-	font-style: italic;
+  font-family: "Roboto";
+  src: url("../fonts/RobotoMediumItalic.woff2") format("woff2"),
+    url("../fonts/RobotoMediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
 }
-
 
 /* Bold */
 @font-face {
-	font-family: 'Roboto';
-	src: url('/fonts/RobotoBold.woff2') format('woff2'),
-			 url('/fonts/RobotoBold.woff') format('woff');
-	font-weight: 600;
-	font-style: normal;
+  font-family: "Roboto";
+  src: url("../fonts/RobotoBold.woff2") format("woff2"),
+    url("../fonts/RobotoBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Roboto';
-	src: url('/fonts/RobotoBoldItalic.woff2') format('woff2'),
-			 url('/fonts/RobotoBoldItalic.woff') format('woff');
-	font-weight: 600;
-	font-style: italic;
+  font-family: "Roboto";
+  src: url("../fonts/RobotoBoldItalic.woff2") format("woff2"),
+    url("../fonts/RobotoBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
 }
-
 
 /* Black */
 @font-face {
-	font-family: 'Roboto';
-	src: url('/fonts/RobotoBlack.woff2') format('woff2'),
-			 url('/fonts/RobotoBlack.woff') format('woff');
-	font-weight: 800;
-	font-style: normal;
+  font-family: "Roboto";
+  src: url("../fonts/RobotoBlack.woff2") format("woff2"),
+    url("../fonts/RobotoBlack.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Roboto';
-	src: url('/fonts/RobotoBlackItalic.woff2') format('woff2'),
-			 url('/fonts/RobotoBlackItalic.woff') format('woff');
-	font-weight: 800;
-	font-style: italic;
+  font-family: "Roboto";
+  src: url("../fonts/RobotoBlackItalic.woff2") format("woff2"),
+    url("../fonts/RobotoBlackItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic;
 }
-
 
 @font-face {
   font-family: "Roboto Mono";
-  src: url("/fonts/roboto-mono-regular.woff2") format("woff2"),
-    url("/fonts/roboto-mono-regular.woff") format("woff");
+  src: url("../fonts/roboto-mono-regular.woff2") format("woff2"),
+    url("../fonts/roboto-mono-regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -339,19 +333,19 @@
     Global Colors 
     ==========================================================================
 	*/
-	
-	/* Astro 5 Simplified Color Palette */
-	--backgroundColor: #eaeef4;
-	--defaultText: #292A2D;
-	--secondaryText: #51555B;
-	--globalAppHeader: #172635;
-	--surfaceElements: #ffffff;
-	--primary: #005A8F;
-	--primaryLight: #2F7AA7;
+
+  /* Astro 5 Simplified Color Palette */
+  --backgroundColor: #eaeef4;
+  --defaultText: #292a2d;
+  --secondaryText: #51555b;
+  --globalAppHeader: #172635;
+  --surfaceElements: #ffffff;
+  --primary: #005a8f;
+  --primaryLight: #2f7aa7;
   --primaryDark: #004872;
-  --primaryDarkHover: #0048724D; /* TODO: this is a temporary fix, the use of opacity from Sketch is new and not accounted for in CSS */
-	--primaryElementText: #ffffff;
-	--inputBackground: #ffffff;
+  --primaryDarkHover: #0048724d; /* TODO: this is a temporary fix, the use of opacity from Sketch is new and not accounted for in CSS */
+  --primaryElementText: #ffffff;
+  --inputBackground: #ffffff;
 
   /* styles */
   --fontColor: var(--defaultText);
@@ -360,9 +354,7 @@
   --fontInvertedBackgroundColor: var(--backgroundColor);
 
   --fontLinkColor: var(--primary);
-	--fontLinkHoverColor: var(--primaryDark);
-	
-	
+  --fontLinkHoverColor: var(--primaryDark);
 
   --wcagCompliance: rgba(0, 0, 0, 0.5);
   --criticalBorder: #7f1c1c;
@@ -396,7 +388,6 @@
   --buttonActiveBackgroundColor: var(--primary);
   --buttonActiveBorderColor: var(--primary);
 
-
   /* Outline Button Variant */
   --buttonOutlineTextColor: var(--colorPrimary, rgb(0, 90, 143));
   --buttonOutlineBackgroundColor: transparent;
@@ -424,8 +415,8 @@
   --controlSelectedBackgroundColor: transparent;
   --controlSelectedBorderColor: var(--primary);
 
-	--controlHoverOutlineBackgroundColor: none;
-	--controlHoverBorderColor: var(--primaryDark);
+  --controlHoverOutlineBackgroundColor: none;
+  --controlHoverBorderColor: var(--primaryDark);
   --controlSelectedOutlineBorderColor: var(--primary);
   --controlSelectedOutlineBackgroundColor: none;
 
@@ -467,17 +458,17 @@
   */
   --sliderThumbBackgroundColor: var(--primaryDark);
   --sliderThumbBorderColor: var(--inputBackground);
-	--sliderHoverThumbBackgroundColor: var(--primaryDark);
-	--sliderHoverThumbBorderColor: var(--inputBackground);
+  --sliderHoverThumbBackgroundColor: var(--primaryDark);
+  --sliderHoverThumbBorderColor: var(--inputBackground);
 
   --sliderTrackBorderColor: var(--secondaryText);
   --sliderTrackBackgroundColor: var(--inputBackground);
 
-	--sliderSelectedThumbBorderColor: var(--primaryLight);
-	--sliderSelectedTrackBackgroundColor: var(--primary);
+  --sliderSelectedThumbBorderColor: var(--primaryLight);
+  --sliderSelectedTrackBackgroundColor: var(--primary);
 
-	--sliderThumbBorderSize: 1px;
-	--sliderTrackBorderSize: .25px;
+  --sliderThumbBorderSize: 1px;
+  --sliderTrackBorderSize: 0.25px;
 
   /* 
     
@@ -489,12 +480,12 @@
   --segmentedButtonBackgroundColor: none;
   --segmentedButtonTextColor: var(--primary);
 
-	/* Segmented Hover */
+  /* Segmented Hover */
   --segmentedButtonHoverBackgroundColor: var(--primaryDark);
-	--segmentedButtonHoverTextColor: var(--primaryElementText);
-	--segmentedButtonHoverBorderColor: var(--primaryDark);
+  --segmentedButtonHoverTextColor: var(--primaryElementText);
+  --segmentedButtonHoverBorderColor: var(--primaryDark);
 
-	/* Segmented Select */
+  /* Segmented Select */
   --segmentedButtonSelectedBackgroundColor: var(--primary);
   --segmentedButtonSelectedTextColor: var(--primaryElementText);
 
@@ -504,14 +495,14 @@
     ==========================================================================
     
   */
-	--selectBackgroundColor: var(--primary);
+  --selectBackgroundColor: var(--primary);
   --selectBorderColor: var(--primary);
-	--selectTextColor: var(--primaryElementText);
-	--selectOptBackground: var(--inputBackground);
-	--selectHoverOptBackgroundColor: var(--primaryDark);
-	--selectCaret: url("data:image/svg+xml,%3Csvg%20width%3D%2210%22%20height%3D%225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M0%200h10L5%205z%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E");
-	
-	--selectActiveBorderColor: var(--primary);
+  --selectTextColor: var(--primaryElementText);
+  --selectOptBackground: var(--inputBackground);
+  --selectHoverOptBackgroundColor: var(--primaryDark);
+  --selectCaret: url("data:image/svg+xml,%3Csvg%20width%3D%2210%22%20height%3D%225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M0%200h10L5%205z%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E");
+
+  --selectActiveBorderColor: var(--primary);
 
   /* 
     
@@ -521,14 +512,15 @@
   */
 
   --toggleButtonBackgroundColor: var(--primary);
-  --toggleButtonBoxShadow: 0 0 3px rgba(0, 0, 0, 0.25), 1px 0 2px rgba(0, 0, 0, 0.3);
+  --toggleButtonBoxShadow: 0 0 3px rgba(0, 0, 0, 0.25),
+    1px 0 2px rgba(0, 0, 0, 0.3);
 
   --toggleBaseBackgroundColor: linear-gradient(
     to right,
     var(--colorNormal) 50%,
     var(--colorPrimaryLighten4) 50.1%
   );
-	--toggleBaseBorderColor: var(--primary);
+  --toggleBaseBorderColor: var(--primary);
   --toggleBaseTextColor: var(--primary);
 
   --toggleBaseSelectedTextColor: #007300;
@@ -537,11 +529,11 @@
 
   /* Default Toggle */
   --toggleThumbBorderColor: var(--secondaryText);
-	--toggleThumbBackgroundColor: var(--inputBackground);	
-	--toggleTrackBorderColor: var(--secondaryText);
-	--toggleTrackBackgroundColor: var(--backgroundColor);
+  --toggleThumbBackgroundColor: var(--inputBackground);
+  --toggleTrackBorderColor: var(--secondaryText);
+  --toggleTrackBackgroundColor: var(--backgroundColor);
 
-	/* Selected State */
+  /* Selected State */
   --toggleSelectedThumbBorderColor: var(--primary);
   --toggleSelectedThumbBackgroundColor: var(--primary);
   --toggleSelectedTrackBorderColor: var(--primary);
@@ -575,8 +567,8 @@
 
   --clockTextColor: var(--primaryElementText);
   --clockBackgroundColor: #101923;
-	--clockBorderColor: #1b2d3e;
-	--clockLabelColor: var(--primaryElementText);
+  --clockBorderColor: #1b2d3e;
+  --clockLabelColor: var(--primaryElementText);
 
   /* 
     
@@ -584,7 +576,7 @@
     ==========================================================================
 
   */
-	--modalTitleColor: var(--primaryElementText);
+  --modalTitleColor: var(--primaryElementText);
   --modalTextColor: var(--defaultText);
   --modalBackgroundColor: var(--surfaceElements);
   --modalBorderColor: var(--primary);
@@ -616,20 +608,20 @@
   --treeItemBorderColor: var(--primaryDark);
   --treeAccentColor: var(--primary);
 
-	/* Hover */
-	--treeHoverBackgroundColor: var(--primaryDark);
-	--treeHoverTextColor: var(--primaryElementText);
+  /* Hover */
+  --treeHoverBackgroundColor: var(--primaryDark);
+  --treeHoverTextColor: var(--primaryElementText);
   --treeHoverAccentColor: var(--primary);
 
-	/* Selected */
-	--treeSelectedBackgroundColor: var(--surfaceElements);
-	--treeSelectedBorderColor: var(--primaryDark);
+  /* Selected */
+  --treeSelectedBackgroundColor: var(--surfaceElements);
+  --treeSelectedBorderColor: var(--primaryDark);
   --treeSelectedTextColor: var(--defaultText);
   --treeSelectedAccentColor: var(--primary);
 
-	--treeChildrenBackgroundColor: var(--surfaceElements);
-	
-	--treeExpandedBorderColor: var(--backgroundColor);
+  --treeChildrenBackgroundColor: var(--surfaceElements);
+
+  --treeExpandedBorderColor: var(--backgroundColor);
 
   /* 
     
@@ -645,24 +637,23 @@
 
   --tabSelectedTextColor: var(--defaultText);
   --tabSelectedBorderColor: var(--primary);
-	
-	/* 
+
+  /* 
     
     Notification Colors 
     ==========================================================================
 
 	*/
-	--notificationTextColor: var(--defaultText);
+  --notificationTextColor: var(--defaultText);
 
-	/* 
+  /* 
     
     Classification Colors 
     ==========================================================================
 
 	*/
-	--classificationTextColorLight: var(--primaryElementText);
-	--classificationTextColorDark: var(--defaultText);
-
+  --classificationTextColorLight: var(--primaryElementText);
+  --classificationTextColorDark: var(--defaultText);
 
   /* 
     
@@ -686,31 +677,29 @@
   --inputBorderColor: var(--primaryLight);
   --inputTextColor: var(--defaultText);
 
-	--inputFocusBorderColor: var(--primary);
-	--inputFocusTextColor: var(--defaultText);
+  --inputFocusBorderColor: var(--primary);
+  --inputFocusTextColor: var(--defaultText);
 
-	--inputInvalidBorderColor: var(--colorCritical);
-	
-	--inputSearchIcon: url("data:image/svg+xml,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M35.37 26.457a15.282 15.282 0 000-21.918c-6.176-6.052-16.187-6.052-22.361 0a15.274 15.274 0 00-1.541 20.166c-.367.147-.713.37-1.014.665L.926 34.709a3.056 3.056 0 000 4.383 3.208 3.208 0 004.472 0l9.528-9.339c.352-.345.604-.753.756-1.186 6.137 3.831 14.347 3.124 19.687-2.11zM24.193 4.043c6.454 0 11.686 5.129 11.686 11.455 0 6.326-5.232 11.455-11.686 11.455-6.455 0-11.687-5.129-11.687-11.455 0-6.326 5.232-11.455 11.687-11.455z' fill='%233a87cf' fill-rule='evenodd'/%3E%3C/svg%3E");
-	--inputSearchCancel: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Cpath fill='%23004872' fill-rule='evenodd' d='M69.028 64l22.628 22.627-5.029 5.029L64 69.028 41.373 91.656l-5.029-5.029L58.972 64 36.344 41.373l5.029-5.029L64 58.972l22.627-22.628 5.029 5.029L69.028 64z'/%3E%3C/svg%3E");
-	
-	/* 
+  --inputInvalidBorderColor: var(--colorCritical);
+
+  --inputSearchIcon: url("data:image/svg+xml,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M35.37 26.457a15.282 15.282 0 000-21.918c-6.176-6.052-16.187-6.052-22.361 0a15.274 15.274 0 00-1.541 20.166c-.367.147-.713.37-1.014.665L.926 34.709a3.056 3.056 0 000 4.383 3.208 3.208 0 004.472 0l9.528-9.339c.352-.345.604-.753.756-1.186 6.137 3.831 14.347 3.124 19.687-2.11zM24.193 4.043c6.454 0 11.686 5.129 11.686 11.455 0 6.326-5.232 11.455-11.686 11.455-6.455 0-11.687-5.129-11.687-11.455 0-6.326 5.232-11.455 11.687-11.455z' fill='%233a87cf' fill-rule='evenodd'/%3E%3C/svg%3E");
+  --inputSearchCancel: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Cpath fill='%23004872' fill-rule='evenodd' d='M69.028 64l22.628 22.627-5.029 5.029L64 69.028 41.373 91.656l-5.029-5.029L58.972 64 36.344 41.373l5.029-5.029L64 58.972l22.627-22.628 5.029 5.029L69.028 64z'/%3E%3C/svg%3E");
+
+  /* 
     
     Icon Default Colors 
     ==========================================================================
     
 	*/
-	
-	--iconDefaultColor: var(--primary);
-	
-	/* 
+
+  --iconDefaultColor: var(--primary);
+
+  /* 
     
     Status Symbols
     ==========================================================================
 
   */
-
-  
 
   --statusSymbols: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAAAgCAMAAABzRoe3AAAA81BMVEUAAABaPhVcDwE7CQA6gJIAAAAATQAkTlsATgBcPxYrHAciGgkAAABcPxU0coUARgAxNTgnU2IoV2YzNjoAUgAtYXEzODovZngAUQAAUAAwNDg0dIk2d4sAOgAjKCgAGAAADQA+hJVZPBRcPxb62AAA4gD/rz1VSQBk2f//KgQiSldXDgEATQCOmqNXOxQwNDdoRhiGWx+tHAJiEAFZw+b1KAMAywDlnTb5qjv7rDzpnzdMpcNJn7xFlrGMmKGEj5g4eY82d4xxe4IyboIwaHskT15GTFEA2gAArAAAnAAAfgAAfABg0vddyu5cZGpg0fbOjTE6oyFAAAAAJHRSTlMA7cc4Kgj9+vbBJB4GypVn9vPu5t/Y18O8n4B/ckY6FRMdmtlkVn4PAAACq0lEQVRYw+2YaVPaUBSGqWbTWsK+b9pC6ek1lypGW1T2RUDb//9rmpsm3Nyc1DQfOhMc3k/cyUzmfeY5BxISh+xXzi7eJ/Y5ZyfGu30msPobQQSf/5KEmKZeymlarqQ3g28vJfMZVc3kk1LUYkdfA3OE+/duv3GCaACtskKcKOVWQP0i7FKMiHAcDHAc0L9zxwgQwKeAiAB1jZD1ylwuzdWaEK3u71BTAUaD/nbbH4wA1FpUBVdffLliAnD/DieIBKArZGO2nZgboujiLZIA437XSX8MkIyo4PpG7H9zzQTg/pwgEkBdIU9tT56IIjioATx0PXkAqEVWgAXg/pwgEkBLY/1FAq3lmX+V9RcJVLwHcqWQShUqcpgCLgD35wRRAMpk0/ZlQ8r8BkUY27XvZ/P57N7+OIaiv2QjS+1kG2EKuADcHxOEAzQVYvoBTKI0dwIA2Pw/T8HO9JntAYDk60/pYjIcThaUNkIUcAG4PyYIB9DJuo2yJjrf4FHXyhTSVUmqpmHKTiPfHstZ+vJ4aeXxhWblYAVYAO6PCcIBSmSFAVak5F7Pw4DND6TP2ek8DWyKBpAXClbogvVnBAtaCVaABeD+mCAcIMcmCM9Qzr2esSdoBtU/xyrM7BnKCAULdHLpZEILr2wBEnBhGL86OHc94+M/AmhkiQGWRHOvq7C1Gs/doZdgbh23oAr9UnToAgxp6pUvIrQB8gej9wP1/24ZOP2fAD+jAHAFXAAmwP1jNUK2Ai4AE+D+sVpiRwEXgAhQ/3h9jboKuABMIPaP1w8ZV8AFIAKhf8weJXYKBAGIgPeP2cMcVyAIwARu/7g9TnMFggBM4PSP2wuNR4EgABPc2v1j90rpUSAIwAQG6x+7l3qvAkEAJmD94/e3ileBIAATnJwmDjnkTeU3PTFjExFNx+YAAAAASUVORK5CYII=");
   /* 
@@ -751,14 +740,14 @@
 
   --timelineRegionSelectedBorderColor: var(--defaultText);
   --timelineRegionSelectedBackgroundColor: var(--primaryDark);
-	--timelineRegionSelectedTextColor: var(--primaryElementText);
-	
-	--timelineRegionStatusColorNormal: var(--colorNormal);
-	--timelineRegionStatusColorCritical: var(--colorCritical);
-	--timelineRegionStatusColorSerious: var(--colorSerious);
-	--timelineRegionStatusColorCaution: var(--colorCautiom);
-	--timelineRegionStatusColorStandby: var(--colorStandby);
-	--timelineRegionStatusColorOff: var(--colorOff);
+  --timelineRegionSelectedTextColor: var(--primaryElementText);
+
+  --timelineRegionStatusColorNormal: var(--colorNormal);
+  --timelineRegionStatusColorCritical: var(--colorCritical);
+  --timelineRegionStatusColorSerious: var(--colorSerious);
+  --timelineRegionStatusColorCaution: var(--colorCautiom);
+  --timelineRegionStatusColorStandby: var(--colorStandby);
+  --timelineRegionStatusColorOff: var(--colorOff);
 
   /* 
     
@@ -773,8 +762,6 @@
   --accordionHoverLabelBackground: rgb(236, 239, 244);
   --accordionColor: rgb(0, 0, 0);
 
-
-
   /* 
     
     TABLE COLORS
@@ -784,22 +771,22 @@
 
   --tableBorderColor: var(--backgroundColor);
 
-	--tableHeaderBackgroundColor: var(--globalAppHeader);
-	--tableHeaderBorderColor: var(--surfaceElements);
+  --tableHeaderBackgroundColor: var(--globalAppHeader);
+  --tableHeaderBorderColor: var(--surfaceElements);
   --tableHeaderTextColor: var(--primaryElementText);
-  --tableHeaderBoxShadow:  0 0.1rem .45rem rgba(0, 0, 0, 0.2);
+  --tableHeaderBoxShadow: 0 0.1rem 0.45rem rgba(0, 0, 0, 0.2);
   --tableHeaderAccentColor: var(--primary);
 
   --tableRowBackgroundColor: var(--surfaceElements);
   --tableRowBorderColor: var(--backgroundColor);
-	--tableRowTextColor: var(--defaultText);
-	
-	--tableRowHoverBackgroundColor: var(--primaryDarkHover);
-	--tableRowHoverTextColor: var(--defaultText);
+  --tableRowTextColor: var(--defaultText);
 
-	--tableRowSelectedBackgroundColor:  var(--backgroundColor);
-	--tableRowSelectedBorderColor: var(--primary);
-  
+  --tableRowHoverBackgroundColor: var(--primaryDarkHover);
+  --tableRowHoverTextColor: var(--defaultText);
+
+  --tableRowSelectedBackgroundColor: var(--backgroundColor);
+  --tableRowSelectedBorderColor: var(--primary);
+
   --tableControlsBackgroundColor: var(--primary);
   --tableFilterBorderColor: var(--primary);
   --tableFilterDisabledBorderColor: var(--backgroundColor);
@@ -817,20 +804,20 @@ li.light-theme {
     =========================================================================
 	*/
 
-	/* Astro 5 Simplified Colors */
-	--backgroundColor: #101923;
-	--defaultText: #FFFFFF;
-	--secondaryText: #d4d8dd;
-	--globalAppHeader: #172635;
-	--surfaceElements: #1b2d3e;
-	--primary: #4dacff;
+  /* Astro 5 Simplified Colors */
+  --backgroundColor: #101923;
+  --defaultText: #ffffff;
+  --secondaryText: #d4d8dd;
+  --globalAppHeader: #172635;
+  --surfaceElements: #1b2d3e;
+  --primary: #4dacff;
   --primaryLight: #92cbff;
-  --primaryLightHover: #92cbff4D; /* TODO: this is a temporary fix, the use of opacity from Sketch is new and not accounted for in CSS */
-	--primaryDark: #3a87cf;
-	--primaryElementText: #080c11;
-	--inputBackground: #FFFFFF;
+  --primaryLightHover: #92cbff4d; /* TODO: this is a temporary fix, the use of opacity from Sketch is new and not accounted for in CSS */
+  --primaryDark: #3a87cf;
+  --primaryElementText: #080c11;
+  --inputBackground: #ffffff;
 
-	/* styles */
+  /* styles */
   --fontColor: var(--defaultText);
   --fontLowContrastColor: var(--secondaryText);
   --fontInvertedColor: var(--primary);
@@ -838,8 +825,6 @@ li.light-theme {
 
   --fontLinkColor: var(--primary);
   --fontLinkHoverColor: var(--primaryLight);
-
-	
 
   /* Status Custom */
   --wcagCompliance: rgba(255, 255, 255, 0);
@@ -875,7 +860,6 @@ li.light-theme {
   --buttonActiveBackgroundColor: var(--primary);
   --buttonActiveBorderColor: var(--primary);
 
-
   /* Outline Button Variant */
   --buttonOutlineTextColor: var(--primary);
   --buttonOutlineBackgroundColor: transparent;
@@ -901,9 +885,9 @@ li.light-theme {
 
   --controlSelectedTextColor: var(--defaultText);
   --controlSelectedBackgroundColor: var(--primaryDark);
-	--controlSelectedBorderColor: var(--primary);
-	--controlHoverBorderColor: var(--primaryLight);
-	--controlSelectedOutlineBorderColor: var(--primary);
+  --controlSelectedBorderColor: var(--primary);
+  --controlHoverBorderColor: var(--primaryLight);
+  --controlSelectedOutlineBorderColor: var(--primary);
 
   /* 
     
@@ -928,17 +912,17 @@ li.light-theme {
   */
   --sliderThumbBackgroundColor: var(--primaryDark);
   --sliderThumbBorderColor: var(--inputBackground);
-	--sliderHoverThumbBackgroundColor: var(--primaryDark);
-	--sliderHoverThumbBorderColor: var(--inputBackground);
+  --sliderHoverThumbBackgroundColor: var(--primaryDark);
+  --sliderHoverThumbBorderColor: var(--inputBackground);
 
   --sliderTrackBorderColor: transparent;
   --sliderTrackBackgroundColor: var(--secondaryText);
 
-	--sliderSelectedThumbBorderColor: var(--primaryLight);
-	--sliderSelectedTrackBackgroundColor: var(--primary);
+  --sliderSelectedThumbBorderColor: var(--primaryLight);
+  --sliderSelectedTrackBackgroundColor: var(--primary);
 
-	--sliderThumbBorderSize: 1px;
-	--sliderTrackBorderSize: 1px;
+  --sliderThumbBorderSize: 1px;
+  --sliderTrackBorderSize: 1px;
 
   /* 
     
@@ -950,12 +934,12 @@ li.light-theme {
   --segmentedButtonBackgroundColor: none;
   --segmentedButtonTextColor: var(--primary);
 
-	/* Segmented Hover */
+  /* Segmented Hover */
   --segmentedButtonHoverBackgroundColor: var(--primaryLight);
-	--segmentedButtonHoverTextColor: var(--primaryElementText);
-	--segmentedButtonHoverBorderColor: var(--primaryLight);
+  --segmentedButtonHoverTextColor: var(--primaryElementText);
+  --segmentedButtonHoverBorderColor: var(--primaryLight);
 
-	/* Segmented Select */
+  /* Segmented Select */
   --segmentedButtonSelectedBackgroundColor: var(--primary);
 
   --segmentedButtonSelectedTextColor: var(--primaryElementText);
@@ -966,14 +950,14 @@ li.light-theme {
     ==========================================================================
     
   */
-	--selectBackgroundColor: var(--primary);
+  --selectBackgroundColor: var(--primary);
   --selectBorderColor: var(--primary);
-	--selectTextColor: var(--primaryElementText);
-	--selectOptBackground: var(--inputBackground);
-	--selectHoverOptBackgroundColor: var(--primaryLight);
-	--selectCaret: url('data:image/svg+xml,%3Csvg%20width%3D%2210%22%20height%3D%225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20fill%3D%22%23080c11%22%20d%3D%22M0%200h10L5%205z%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E');
-	
-	--selectActiveBorderColor: var(--primary);
+  --selectTextColor: var(--primaryElementText);
+  --selectOptBackground: var(--inputBackground);
+  --selectHoverOptBackgroundColor: var(--primaryLight);
+  --selectCaret: url("data:image/svg+xml,%3Csvg%20width%3D%2210%22%20height%3D%225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20fill%3D%22%23080c11%22%20d%3D%22M0%200h10L5%205z%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E");
+
+  --selectActiveBorderColor: var(--primary);
 
   /* 
     
@@ -981,7 +965,7 @@ li.light-theme {
     ==========================================================================
 
   */
-	
+
   --toggleButtonBackgroundColor: var(--primary);
   --toggleBaseBackgroundColor: var(--primary);
   --toggleBaseBorderColor: var(--primary);
@@ -995,7 +979,7 @@ li.light-theme {
   --toggleTrackBackgroundColor: var(--backgroundColor);
 
   /* Selected State */
-  --toggleSelectedThumbBorderColor:var(--primaryDark);
+  --toggleSelectedThumbBorderColor: var(--primaryDark);
   --toggleSelectedTrackBackgroundColor: var(--primary);
   --toggleSelectedTrackBorderColor: var(--primaryDark);
 
@@ -1044,16 +1028,16 @@ li.light-theme {
   */
   --clockTextColor: var(--defaultText);
   --clockBackgroundColor: var(--backgroundColor);
-	--clockBorderColor: var(--surfaceElements);
-	--clockLabelColor: var(--defaultText);
+  --clockBorderColor: var(--surfaceElements);
+  --clockLabelColor: var(--defaultText);
 
-	/* 
+  /* 
     
     Modal Colors 
     ==========================================================================
 
   */
-	--modalTitleColor: var(--primaryElementText);
+  --modalTitleColor: var(--primaryElementText);
   --modalTextColor: var(--defaultText);
   --modalBackgroundColor: var(--surfaceElements);
   --modalBorderColor: var(--primary);
@@ -1087,21 +1071,21 @@ li.light-theme {
   --treeItemBorderColor: var(--primaryDark);
   --treeAccentColor: var(--primary);
 
-	/* Hover*/
-	--treeHoverBackgroundColor: var(--primaryLight);
-	--treeHoverTextColor: var(--primaryElementText);
+  /* Hover*/
+  --treeHoverBackgroundColor: var(--primaryLight);
+  --treeHoverTextColor: var(--primaryElementText);
   --treeHoverAccentColor: var(--primary);
 
-	/* Selected */
-	--treeSelectedBackgroundColor: var(--surfaceElements);
-	--treeSelectedBorderColor: var(--primaryDark);
+  /* Selected */
+  --treeSelectedBackgroundColor: var(--surfaceElements);
+  --treeSelectedBorderColor: var(--primaryDark);
   --treeSelectedTextColor: var(--defaultText);
   --treeSelectedAccentColor: var(--primary);
 
-	--treeChildrenBackgroundColor: var(--surfaceElements);
-	
-	--treeExpandedBorderColor: var(--backgroundColor);
-	
+  --treeChildrenBackgroundColor: var(--surfaceElements);
+
+  --treeExpandedBorderColor: var(--backgroundColor);
+
   /* 
     
     Tab Colors 
@@ -1110,30 +1094,29 @@ li.light-theme {
   */
   --tabTextColor: var(--primary);
   --tabBackgroundColor: transparent;
-	--tabBorderColor: transparent;
-	
-	--tabHoverTextColor: var(--defaultText);
+  --tabBorderColor: transparent;
+
+  --tabHoverTextColor: var(--defaultText);
 
   --tabSelectedTextColor: var(--defaultText);
-	--tabSelectedBorderColor: var(--primary);
-	
-	/* 
+  --tabSelectedBorderColor: var(--primary);
+
+  /* 
     
     Notification Colors 
     ==========================================================================
 
 	*/
-	--notificationTextColor: var(--primaryElementText);
+  --notificationTextColor: var(--primaryElementText);
 
-	/* 
+  /* 
     
     Classification Colors 
     ==========================================================================
 
 	*/
-	--classificationTextColorLight: var(--defaultText);
-	--classificationTextColorDark: var(--primaryElementText);
-
+  --classificationTextColorLight: var(--defaultText);
+  --classificationTextColorDark: var(--primaryElementText);
 
   /* 
     
@@ -1156,36 +1139,33 @@ li.light-theme {
   --inputBackgroundColor: var(--inputBackground);
   --inputBorderColor: var(--surfaceElements);
   --inputTextColor: var(--primaryElementText);
-	 
-	/* Input Focus */
-	--inputFocusBorderColor: var(--primary);
-	--inputFocusTextColor: var(--primaryElementText);
 
-	--inputInvalidBorderColor: var(--colorCritical);
-	
-	--inputSearchIcon: url("data:image/svg+xml,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M35.37 26.457a15.282 15.282 0 000-21.918c-6.176-6.052-16.187-6.052-22.361 0a15.274 15.274 0 00-1.541 20.166c-.367.147-.713.37-1.014.665L.926 34.709a3.056 3.056 0 000 4.383 3.208 3.208 0 004.472 0l9.528-9.339c.352-.345.604-.753.756-1.186 6.137 3.831 14.347 3.124 19.687-2.11zM24.193 4.043c6.454 0 11.686 5.129 11.686 11.455 0 6.326-5.232 11.455-11.686 11.455-6.455 0-11.687-5.129-11.687-11.455 0-6.326 5.232-11.455 11.687-11.455z' fill='%23005a92' fill-rule='evenodd'/%3E%3C/svg%3E");
-	--inputSearchCancel: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Cpath fill='%233a87cf' fill-rule='evenodd' d='M69.028 64l22.628 22.627-5.029 5.029L64 69.028 41.373 91.656l-5.029-5.029L58.972 64 36.344 41.373l5.029-5.029L64 58.972l22.627-22.628 5.029 5.029L69.028 64z'/%3E%3C/svg%3E");
-	
-	
-	/* 
+  /* Input Focus */
+  --inputFocusBorderColor: var(--primary);
+  --inputFocusTextColor: var(--primaryElementText);
+
+  --inputInvalidBorderColor: var(--colorCritical);
+
+  --inputSearchIcon: url("data:image/svg+xml,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M35.37 26.457a15.282 15.282 0 000-21.918c-6.176-6.052-16.187-6.052-22.361 0a15.274 15.274 0 00-1.541 20.166c-.367.147-.713.37-1.014.665L.926 34.709a3.056 3.056 0 000 4.383 3.208 3.208 0 004.472 0l9.528-9.339c.352-.345.604-.753.756-1.186 6.137 3.831 14.347 3.124 19.687-2.11zM24.193 4.043c6.454 0 11.686 5.129 11.686 11.455 0 6.326-5.232 11.455-11.686 11.455-6.455 0-11.687-5.129-11.687-11.455 0-6.326 5.232-11.455 11.687-11.455z' fill='%23005a92' fill-rule='evenodd'/%3E%3C/svg%3E");
+  --inputSearchCancel: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Cpath fill='%233a87cf' fill-rule='evenodd' d='M69.028 64l22.628 22.627-5.029 5.029L64 69.028 41.373 91.656l-5.029-5.029L58.972 64 36.344 41.373l5.029-5.029L64 58.972l22.627-22.628 5.029 5.029L69.028 64z'/%3E%3C/svg%3E");
+
+  /* 
     
     Icon Default Colors 
     ==========================================================================
     
 	*/
-	
-	--iconDefaultColor: var(--primary);
-	
-	
-	
-	/* 
+
+  --iconDefaultColor: var(--primary);
+
+  /* 
     
     Status Symbols
     ==========================================================================
     
   */
 
-  --statusSymbols: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAAAgCAMAAABzRoe3AAAAgVBMVEUAAAD/tQv/swL/OTn/PDzftl9W8QBW8AAtzP8v0P9Z9gD/tAP/uQb/tAItzf8tzf+eqK2ep60uzP9X8QCfqK4uzf8uzf9X8QAuzP9X8ACeqK4vzP9Y8QAuzv9Y8gCeqq4wz/8xzv9A1f9Y8QD/tAP86DpW8AD/swL/ODgtzP+ep63tgXPUAAAAJXRSTlMAGNfAQAv98/IdG8Io52zz8+DZ2dC9trabm4F+a05OQjAaDG6dAJcYcwAAAfdJREFUWMPtmNlygkAQRScyrBp3QTZFNBj8/w9MCGI3dBOHMg9jyvOmVFnn1HUSULx4LibjN/HMTN7Po2cu+PY/cwUfPYg2XhKsbHsVJJ5gcaf+cjZb+lN3qJjxyWIw/lAwNMALreKKFTIJh215Y3sYFiD5AEn9oWBowM4uEPau65A6JcJJ/2ACg/pDwdCAo1W0sI6ixbTsMH18Akn9oWBgwK7xh4LWBmlJSB+dwCD+pEA5wLMLgo3OwcGpvzhxludZfH1Bz4EZrefzdWSqTSCJPylQDggLhhA+oD6/G7d+5W7qk9yV3C8uPyz2KhMYxJ8UKAd4Fhdg3SZwa3/4wLrA7fhfbuwVJpDEnxQoByQFS9I6wQ7ydR16js0FBCzMuxMY1J8WqAYEfEDQXPcr3RjbxNU7vsBEF0R0dwJJ/LkCxYAVH7Bqri8r3QzbZNU7S4FZ44B1/ymgA4zPfZwUA2w+wG6uzyrdHMvk1TszgZnjgLmgyL4T8Dbq8R+bWgUIgw4ABby/Vl8hIckAUMD7a3WIYQIYgC0Af73+jOIJpKAF1F+vf2QwAQxAC7C/ZrcSeAIpegvAX7ObOZgABiAF2F+322mYAAagBeCv2wMNTEAGIAWVv3aPlDABDMAW1P7aPdQjDBiALaj89ftZBSGl+LXgZIoXL/4VXyptNwzuHR/QAAAAAElFTkSuQmCC');
+  --statusSymbols: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAAAgCAMAAABzRoe3AAAAgVBMVEUAAAD/tQv/swL/OTn/PDzftl9W8QBW8AAtzP8v0P9Z9gD/tAP/uQb/tAItzf8tzf+eqK2ep60uzP9X8QCfqK4uzf8uzf9X8QAuzP9X8ACeqK4vzP9Y8QAuzv9Y8gCeqq4wz/8xzv9A1f9Y8QD/tAP86DpW8AD/swL/ODgtzP+ep63tgXPUAAAAJXRSTlMAGNfAQAv98/IdG8Io52zz8+DZ2dC9trabm4F+a05OQjAaDG6dAJcYcwAAAfdJREFUWMPtmNlygkAQRScyrBp3QTZFNBj8/w9MCGI3dBOHMg9jyvOmVFnn1HUSULx4LibjN/HMTN7Po2cu+PY/cwUfPYg2XhKsbHsVJJ5gcaf+cjZb+lN3qJjxyWIw/lAwNMALreKKFTIJh215Y3sYFiD5AEn9oWBowM4uEPau65A6JcJJ/2ACg/pDwdCAo1W0sI6ixbTsMH18Akn9oWBgwK7xh4LWBmlJSB+dwCD+pEA5wLMLgo3OwcGpvzhxludZfH1Bz4EZrefzdWSqTSCJPylQDggLhhA+oD6/G7d+5W7qk9yV3C8uPyz2KhMYxJ8UKAd4Fhdg3SZwa3/4wLrA7fhfbuwVJpDEnxQoByQFS9I6wQ7ydR16js0FBCzMuxMY1J8WqAYEfEDQXPcr3RjbxNU7vsBEF0R0dwJJ/LkCxYAVH7Bqri8r3QzbZNU7S4FZ44B1/ymgA4zPfZwUA2w+wG6uzyrdHMvk1TszgZnjgLmgyL4T8Dbq8R+bWgUIgw4ABby/Vl8hIckAUMD7a3WIYQIYgC0Af73+jOIJpKAF1F+vf2QwAQxAC7C/ZrcSeAIpegvAX7ObOZgABiAF2F+322mYAAagBeCv2wMNTEAGIAWVv3aPlDABDMAW1P7aPdQjDBiALaj89ftZBSGl+LXgZIoXL/4VXyptNwzuHR/QAAAAAElFTkSuQmCC");
   /* 
     
     Scrollbar Colors -- Dark
@@ -1229,15 +1209,14 @@ li.light-theme {
 
   --timelineRegionSelectedBorderColor: var(--inputBackground);
   --timelineRegionSelectedBackgroundColor: var(--primaryDark);
-	--timelineRegionSelectedTextColor: var(--defaultText);
-	
-	--timelineRegionStatusColorNormal: var(--colorNormal);
-	--timelineRegionStatusColorCritical: var(--colorCritical);
-	--timelineRegionStatusColorSerious: var(--colorSerious);
-	--timelineRegionStatusColorCaution: var(--colorCautiom);
-	--timelineRegionStatusColorStandby: var(--colorStandby);
-	--timelineRegionStatusColorOff: var(--colorOff);
+  --timelineRegionSelectedTextColor: var(--defaultText);
 
+  --timelineRegionStatusColorNormal: var(--colorNormal);
+  --timelineRegionStatusColorCritical: var(--colorCritical);
+  --timelineRegionStatusColorSerious: var(--colorSerious);
+  --timelineRegionStatusColorCaution: var(--colorCautiom);
+  --timelineRegionStatusColorStandby: var(--colorStandby);
+  --timelineRegionStatusColorOff: var(--colorOff);
 
   /* 
     
@@ -1252,8 +1231,6 @@ li.light-theme {
   --accordionHoverLabelBackground: rgb(46, 103, 153);
   --accordionColor: rgb(255, 255, 255);
 
-
-
   /* 
     
     TABLE COLORS
@@ -1263,22 +1240,22 @@ li.light-theme {
 
   --tableBorderColor: var(--backgroundColor);
 
-	--tableHeaderBackgroundColor: var(--globalAppHeader);
-	--tableHeaderBorderColor: var(--surfaceElements);
+  --tableHeaderBackgroundColor: var(--globalAppHeader);
+  --tableHeaderBorderColor: var(--surfaceElements);
   --tableHeaderTextColor: var(--defaultText);
-  --tableHeaderBoxShadow: 0 0.25rem .5rem rgba(0, 0, 0, 0.45);
-  --tableHeaderAccentColor:  var(--primary);
+  --tableHeaderBoxShadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.45);
+  --tableHeaderAccentColor: var(--primary);
 
   --tableRowBackgroundColor: var(--surfaceElements);
   --tableRowTextColor: var(--defaultText);
-	--tableRowBorderColor: var(--backgroundColor);
-	
-	--tableRowHoverBackgroundColor: var(--primaryLightHover);
-	--tableRowHoverTextColor: var(--defaultText);
-  
+  --tableRowBorderColor: var(--backgroundColor);
+
+  --tableRowHoverBackgroundColor: var(--primaryLightHover);
+  --tableRowHoverTextColor: var(--defaultText);
+
   --tableRowSelectedBackgroundColor: var(--backgroundColor);
-	--tableRowSelectedBorderColor: var(--primary);
-	
+  --tableRowSelectedBorderColor: var(--primary);
+
   --tableControlsBackgroundColor: var(--primary);
   --tableFilterBorderColor: var(--primary);
   --tableFilterDisabledBorderColor: var(--backgroundColor);
@@ -1292,8 +1269,9 @@ li.dark-theme {
 h1,
 h2,
 h3 {
-	font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-	font-family: var(--fontFamily);
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: var(--fontFamily);
   font-weight: 300;
   color: var(--defaultText);
   margin: 0 0 0.5rem 0;
@@ -1423,7 +1401,8 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 
   font-family: var(--fontFamily);
   font-size: 1rem;
@@ -1431,7 +1410,8 @@ body {
   color: var(--fontColor, rgb(255, 255, 255));
 
   background-color: var(--backgroundColor);
-  scrollbar-color: var(--scrollBarThumbBackgroundColor) var(--scrollBarTrackCornerBackgroundColor);
+  scrollbar-color: var(--scrollBarThumbBackgroundColor)
+    var(--scrollBarTrackCornerBackgroundColor);
 }
 
 label {
@@ -1468,8 +1448,7 @@ label {
 
 ::-webkit-scrollbar-thumb:active,
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgb(58, 129, 191)
-  ;
+  background-color: rgb(58, 129, 191);
   background-color: var(
     --scrollBarThumbBackgroundHoverColor,
     rgb(58, 129, 191)
@@ -1533,7 +1512,8 @@ label {
   border-radius: var(--buttonBorderRadius);
 
   color: var(--buttonTextColor);
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-family: var(--fontFamily);
   font-size: 1rem;
 
@@ -1602,7 +1582,7 @@ label {
 
 .rux-button--outline:hover:not([disabled]) {
   color: var(--buttonOutlineTextColor);
-  background-color: var( --buttonOutlineHoverBackgroundColor);
+  background-color: var(--buttonOutlineHoverBackgroundColor);
   border-color: var(--buttonOutlineHoverBorderColor);
 }
 
@@ -1661,8 +1641,8 @@ label {
 .rux-button__icon .rux-icon {
   height: auto;
   width: 100%;
-	fill: var(--buttonTextColor);
-	color: var(--buttonTextColor);
+  fill: var(--buttonTextColor);
+  color: var(--buttonTextColor);
 }
 
 .rux-button.rux-button--critical,
@@ -1799,23 +1779,23 @@ label {
 
 .rux-checkbox input[type="checkbox"]:hover + label::before,
 .rux-radio-button input[type="radio"]:hover + label::before {
-	border-color: var(--controlHoverBorderColor);
+  border-color: var(--controlHoverBorderColor);
 }
 
 .rux-checkbox input[type="checkbox"]:checked:hover + label::before,
 .rux-radio-button input[type="radio"]:checked:hover + label::before {
-	border-color: var(--controlSelectedBorderColor);
+  border-color: var(--controlSelectedBorderColor);
 }
 
 .rux-checkbox input[type="checkbox"]:checked + label::after,
-.rux-radio-button input[type="radio"]:checked + label::after{
+.rux-radio-button input[type="radio"]:checked + label::after {
   position: absolute;
   top: 5px;
   display: flex;
   content: "";
 }
 
-.rux-checkbox input[type="checkbox"]:checked + label::after{
+.rux-checkbox input[type="checkbox"]:checked + label::after {
   height: 6px;
   width: 12px;
   left: 4px;
@@ -1853,14 +1833,13 @@ label {
   -webkit-appearance: none;
   -moz-appearance: none;
 
-  
-
   border: 1px solid var(--selectBorderColor);
   border-radius: 3px;
   border-radius: var(--buttonBorderRadius);
 
   color: var(--selectTextColor);
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-family: var(--fontFamily);
   font-size: 1rem;
   line-height: 1.5;
@@ -1892,8 +1871,8 @@ label {
 }
 
 .rux-select:focus {
-	border-color: var(--selectActiveBorderColor);
-	outline-color: var(--selectActiveBorderColor);
+  border-color: var(--selectActiveBorderColor);
+  outline-color: var(--selectActiveBorderColor);
 }
 
 .rux-select::-ms-expand {
@@ -1901,8 +1880,7 @@ label {
 }
 
 .rux-select:focus::-ms-value {
-	background: transparent;
-	
+  background: transparent;
 }
 
 .rux-form-element {
@@ -1946,7 +1924,8 @@ label {
   flex-wrap: wrap;
   align-items: flex-start;
 
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 
   font-family: var(--fontFamily);
   font-size: 1rem;
@@ -1956,10 +1935,9 @@ label {
 
 .rux-form-field input:required + label::after {
   content: "*";
-	margin-left: 0.25rem;
-	color: var(--inputTextColor);
+  margin-left: 0.25rem;
+  color: var(--inputTextColor);
 }
-
 
 .rux-form-field__label {
   display: flex;
@@ -2004,7 +1982,8 @@ label {
   border: 1px solid var(--inputBorderColor);
   border-radius: 3px;
 
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 
   font-family: var(--fontFamily);
   font-size: 1rem;
@@ -2156,7 +2135,8 @@ label {
   -webkit-appearance: none;
   -moz-appearance: none;
   padding: 0.5rem 0.5rem 0.5rem 2rem;
-	background: var(--inputBackgroundColor) var(--inputSearchIcon) 10px/0.975rem no-repeat;
+  background: var(--inputBackgroundColor) var(--inputSearchIcon) 10px/0.975rem
+    no-repeat;
 }
 
 .rux-form-field--large input[type="search"] {
@@ -2173,8 +2153,8 @@ label {
   -webkit-appearance: none;
   width: 20px;
   height: 20px;
-	background-image: var(--inputSearchCancel);
-	background-repeat: no-repeat;
+  background-image: var(--inputSearchCancel);
+  background-repeat: no-repeat;
 }
 
 .rux-form-field input[type="search"]::-ms-clear {
@@ -2190,8 +2170,6 @@ label {
 ** 	TABLE
 ** 	==========================================================================
 */
-
-
 
 .rux-table {
   width: 100%;
@@ -2211,11 +2189,11 @@ label {
   border-top-style: solid;
   border-top-color: var(--tableHeaderBorderColor);
   background: var(--tableHeaderBackgroundColor);
-	color: var(--tableHeaderTextColor);
-	font-size: 1.125rem;
-	font-size: var(--fontSizeXL);
+  color: var(--tableHeaderTextColor);
+  font-size: 1.125rem;
+  font-size: var(--fontSizeXL);
   font-weight: 400;
-  height:  2.625rem;
+  height: 2.625rem;
   padding: 0.625rem 1rem;
   white-space: nowrap;
 }
@@ -2229,23 +2207,23 @@ label {
 
 .rux-table tr[data-selected],
 .rux-table tr.selected {
-	background:var(--tableRowSelectedBackgroundColor);
+  background: var(--tableRowSelectedBackgroundColor);
 }
 
 .rux-table tr[data-selected] td,
 .rux-table tr.selected td {
-	border-color:var(--tableRowSelectedBorderColor);
+  border-color: var(--tableRowSelectedBorderColor);
 }
 .rux-table tr:hover:not([data-selected]),
 .rux-table tr.selected:hover:not([data-selected]) {
-	background: var(--tableRowHoverBackgroundColor);
-	color: var(--tableRowHoverTextColor);
+  background: var(--tableRowHoverBackgroundColor);
+  color: var(--tableRowHoverTextColor);
 }
 
 .rux-table td {
-	border-width: 1px 0;
-	border-style: solid;
-	border-color: var(--tableRowBorderColor);
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: var(--tableRowBorderColor);
   padding: 0.625rem 1rem;
   white-space: nowrap;
 }
@@ -2254,22 +2232,20 @@ label {
 .rux-table th:first-child,
 .rux-table td:first-child {
   padding-left: 1.875rem;
-
 }
 .rux-table__column-head th:last-child,
 .rux-table th:last-child,
 .rux-table td:last-child {
   padding-right: 1.875rem;
-
 }
 
 .rux-table .rux-checkbox {
-	margin:0;
+  margin: 0;
 }
 
 .rux-table .rux-checkbox input[type="checkbox"]:checked + label::before,
 .rux-table .rux-radio-button input[type="radio"]:checked + label::before {
-	background-color: var(--controlBackgroundColor);
+  background-color: var(--controlBackgroundColor);
   border-color: var(--controlBorderColor);
 }
 
@@ -2277,9 +2253,13 @@ label {
 .rux-table .rux-radio-button input[type="radio"]:checked + label::after {
   border-color: var(--inputBackground);
 }
-.rux-table tr:hover .rux-checkbox input[type="checkbox"]:not(:checked) + label::before,
+.rux-table
+  tr:hover
+  .rux-checkbox
+  input[type="checkbox"]:not(:checked)
+  + label::before,
 .rux-table tr:hover .rux-checkbox input[type="radio"] + label::before {
-	border-color: var(--controlSelectedBorderColor);
+  border-color: var(--controlSelectedBorderColor);
 }
 .rux-advanced-status {
   position: relative;
@@ -2425,8 +2405,8 @@ label {
 }
 
 .rux-clock__segment__label {
-	font-size: 0.875rem;
-	color: var(--clockLabelColor);
+  font-size: 0.875rem;
+  color: var(--clockLabelColor);
 }
 
 .rux-clock__aos {
@@ -2449,7 +2429,7 @@ label {
   fill: var(--iconDefaultColor);
 }
 .rux-icon svg {
-	fill: var(--iconDefaultColor);
+  fill: var(--iconDefaultColor);
 }
 
 i.rux-icon {
@@ -2539,7 +2519,8 @@ i.rux-icon {
 }
 
 .rux-log__log-event .log-event__timestamp {
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-family: var(--fontFamily);
 }
 
@@ -2676,9 +2657,9 @@ i.rux-icon {
   background-color: var(--colorStandbyLighten1);
   transition: all 0.5s ease;
 
-	box-sizing: border-box;
-	font-size: 1.125rem;
-	font-size: var(--fontSizeXL);
+  box-sizing: border-box;
+  font-size: 1.125rem;
+  font-size: var(--fontSizeXL);
   color: var(--notificationTextColor);
 }
 
@@ -2879,10 +2860,11 @@ i.rux-icon {
   max-width: 20em;
 }
 
-.rux-pop-up a:hover,.rux-pop-up li:hover {
-	background-color: rgb(184, 222, 255);
-	background-color: var(--colorSecondaryLighten3);
-	color: var(--popupMenuItemHoverTextColor);
+.rux-pop-up a:hover,
+.rux-pop-up li:hover {
+  background-color: rgb(184, 222, 255);
+  background-color: var(--colorSecondaryLighten3);
+  color: var(--popupMenuItemHoverTextColor);
 }
 
 .rux-pop-up li:first-child a {
@@ -2918,7 +2900,7 @@ i.rux-icon {
   transform: rotate(45deg);
 }
 
-.rux-pop-up--bottom{
+.rux-pop-up--bottom {
   border-bottom: 3px solid rgb(77, 172, 255);
   border-bottom: 3px solid var(--colorSecondary);
 }
@@ -2971,7 +2953,7 @@ i.rux-icon {
   border-right: 3px solid var(--colorSecondary);
 }
 
-.rux-pop-up--right::before{
+.rux-pop-up--right::before {
   content: "";
   display: block;
   position: absolute;
@@ -3035,8 +3017,7 @@ i.rux-icon {
   appearance: none;
 
   /* background: #21384f; */
-  background-color: rgba(0, 0, 0, 0.3)
-  ;
+  background-color: rgba(0, 0, 0, 0.3);
   background-color: var(
     --progressDeterminateTrackBackgroundColor,
     rgba(0, 0, 0, 0.3)
@@ -3076,8 +3057,7 @@ i.rux-icon {
   max-width: calc(100% - 4px);
   max-width: var(--progressWidth);
 
-  background-color: rgb(77, 172, 255)
-  ;
+  background-color: rgb(77, 172, 255);
 
   background-color: var(
     --progressDeterminateBarBackgroundColor,
@@ -3093,8 +3073,7 @@ i.rux-icon {
   margin: 2px;
   max-width: calc(100% - 6px); /* var(--progressWidth);*/
 
-  background-color: rgb(77, 172, 255)
-  ;
+  background-color: rgb(77, 172, 255);
 
   background-color: var(
     --progressDeterminateBarBackgroundColor,
@@ -3112,8 +3091,7 @@ i.rux-icon {
   max-width: calc(100% - 4px);
   max-width: var(--progressWidth);
 
-  background-color: rgb(77, 172, 255)
-  ;
+  background-color: rgb(77, 172, 255);
 
   background-color: var(
     --progressDeterminateBarBackgroundColor,
@@ -3131,8 +3109,7 @@ i.rux-icon {
   height: 5rem;
   width: 5rem;
 
-  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2264%22%20height%3D%2264%22%20viewBox%3D%220%200%2064%2064%22%3E%0A%20%20%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23000000%22%20fill-opacity%3D%22.3%22%20stroke%3D%22%2314202c%22%20d%3D%22M32%2C63.5%20C49.3969696%2C63.5%2063.5%2C49.3969696%2063.5%2C32%20C63.5%2C14.6030304%2049.3969696%2C0.5%2032%2C0.5%20C14.6030304%2C0.5%200.5%2C14.6030304%200.5%2C32%20C0.5%2C49.3969696%2014.6030304%2C63.5%2032%2C63.5%20Z%20M32%2C56.5%20C18.4690236%2C56.5%207.5%2C45.5309764%207.5%2C32%20C7.5%2C18.4690236%2018.4690236%2C7.5%2032%2C7.5%20C45.5309764%2C7.5%2056.5%2C18.4690236%2056.5%2C32%20C56.5%2C45.5309764%2045.5309764%2C56.5%2032%2C56.5%20Z%22%2F%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%234dacff%22%20fill-rule%3D%22nonzero%22%20d%3D%22M32%2C61.9354839%20C30.9333606%2C61.9354839%2030.0686785%2C61.0708018%2030.0686785%2C60.0041623%20C30.0686785%2C58.9375229%2030.9333606%2C58.0728408%2032%2C58.0728408%20C40.1954904%2C58.0728408%2047.7578267%2C54.2689176%2052.6662672%2C47.8987622%20C56.1526582%2C43.3741373%2058.0728408%2C37.8356396%2058.0728408%2C32%20C58.0728408%2C17.6003676%2046.3996324%2C5.92715921%2032%2C5.92715921%20C17.6003676%2C5.92715921%205.92715921%2C17.6003676%205.92715921%2C32%20C5.92715921%2C33.0666394%205.0624771%2C33.9313215%203.99583767%2C33.9313215%20C2.92919824%2C33.9313215%202.06451613%2C33.0666394%202.06451613%2C32%20C2.06451613%2C15.4670888%2015.4670888%2C2.06451613%2032%2C2.06451613%20C48.5329112%2C2.06451613%2061.9354839%2C15.4670888%2061.9354839%2C32%20C61.9354839%2C38.6961574%2059.7285058%2C45.0618765%2055.7259583%2C50.2563674%20C50.0938506%2C57.5656952%2041.4065535%2C61.9354839%2032%2C61.9354839%20Z%22%20%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E")
-  ;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2264%22%20height%3D%2264%22%20viewBox%3D%220%200%2064%2064%22%3E%0A%20%20%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23000000%22%20fill-opacity%3D%22.3%22%20stroke%3D%22%2314202c%22%20d%3D%22M32%2C63.5%20C49.3969696%2C63.5%2063.5%2C49.3969696%2063.5%2C32%20C63.5%2C14.6030304%2049.3969696%2C0.5%2032%2C0.5%20C14.6030304%2C0.5%200.5%2C14.6030304%200.5%2C32%20C0.5%2C49.3969696%2014.6030304%2C63.5%2032%2C63.5%20Z%20M32%2C56.5%20C18.4690236%2C56.5%207.5%2C45.5309764%207.5%2C32%20C7.5%2C18.4690236%2018.4690236%2C7.5%2032%2C7.5%20C45.5309764%2C7.5%2056.5%2C18.4690236%2056.5%2C32%20C56.5%2C45.5309764%2045.5309764%2C56.5%2032%2C56.5%20Z%22%2F%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%234dacff%22%20fill-rule%3D%22nonzero%22%20d%3D%22M32%2C61.9354839%20C30.9333606%2C61.9354839%2030.0686785%2C61.0708018%2030.0686785%2C60.0041623%20C30.0686785%2C58.9375229%2030.9333606%2C58.0728408%2032%2C58.0728408%20C40.1954904%2C58.0728408%2047.7578267%2C54.2689176%2052.6662672%2C47.8987622%20C56.1526582%2C43.3741373%2058.0728408%2C37.8356396%2058.0728408%2C32%20C58.0728408%2C17.6003676%2046.3996324%2C5.92715921%2032%2C5.92715921%20C17.6003676%2C5.92715921%205.92715921%2C17.6003676%205.92715921%2C32%20C5.92715921%2C33.0666394%205.0624771%2C33.9313215%203.99583767%2C33.9313215%20C2.92919824%2C33.9313215%202.06451613%2C33.0666394%202.06451613%2C32%20C2.06451613%2C15.4670888%2015.4670888%2C2.06451613%2032%2C2.06451613%20C48.5329112%2C2.06451613%2061.9354839%2C15.4670888%2061.9354839%2C32%20C61.9354839%2C38.6961574%2059.7285058%2C45.0618765%2055.7259583%2C50.2563674%20C50.0938506%2C57.5656952%2041.4065535%2C61.9354839%2032%2C61.9354839%20Z%22%20%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E");
 
   background-image: var(
     --progressIndeterminate,
@@ -3193,7 +3170,7 @@ i.rux-icon {
 **  - Updated transition speed
 */
 
-.rux-pushbutton{
+.rux-pushbutton {
   display: inline-block;
 
   height: 1.3125rem;
@@ -3202,7 +3179,7 @@ i.rux-icon {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
-.rux-pushbutton__input{
+.rux-pushbutton__input {
   display: none;
 }
 
@@ -3231,7 +3208,7 @@ i.rux-icon {
   color: var(--pushbuttonTextColor);
 }
 
-.rux-pushbutton__input:checked + .rux-pushbutton__button{
+.rux-pushbutton__input:checked + .rux-pushbutton__button {
   display: flex;
   color: var(--pushbuttonSelectedTextColor);
   background-color: var(--pushbuttonSelectedBackgroundColor);
@@ -3242,7 +3219,7 @@ i.rux-icon {
   display: none;
 }
 
-.rux-pushbutton__input:disabled + .rux-pushbutton__button{
+.rux-pushbutton__input:disabled + .rux-pushbutton__button {
   opacity: 0.4;
   opacity: var(--disabledOpacity);
   cursor: not-allowed;
@@ -3275,8 +3252,8 @@ i.rux-icon {
   border: 1px solid var(--segmentedButtonBorderColor);
 }
 
-.rux-segmented-button:hover{
-	border-color: var(--segmentedButtonHoverBorderColor);
+.rux-segmented-button:hover {
+  border-color: var(--segmentedButtonHoverBorderColor);
 }
 
 .rux-segmented-button__segment {
@@ -3317,8 +3294,8 @@ i.rux-icon {
 }
 
 .rux-segmented-button__segment label:hover {
-	background-color: var(--segmentedButtonHoverBackgroundColor);
-	border-color: var( --segmentedButtonHoverBorderColor);
+  background-color: var(--segmentedButtonHoverBackgroundColor);
+  border-color: var(--segmentedButtonHoverBorderColor);
   color: var(--segmentedButtonHoverTextColor);
   outline: none;
 }
@@ -3329,17 +3306,16 @@ i.rux-icon {
 }
 
 .rux-segmented-button:nth-child(2):not(:last-child) label {
-	border-right: none;
-	border-left: none;
+  border-right: none;
+  border-left: none;
 }
-.rux-segmented-button:first-child label{
-	border-radius: 3px 0 0 3px;
-	border-radius: var(--controlBorderRadius) 0 0 var(--controlBorderRadius);
-
+.rux-segmented-button:first-child label {
+  border-radius: 3px 0 0 3px;
+  border-radius: var(--controlBorderRadius) 0 0 var(--controlBorderRadius);
 }
-.rux-segmented-button:last-child label{
-	border-radius: 0 3px 3px 0;
-	border-radius: 0 var(--controlBorderRadius) var(--controlBorderRadius) 0;
+.rux-segmented-button:last-child label {
+  border-radius: 0 3px 3px 0;
+  border-radius: 0 var(--controlBorderRadius) var(--controlBorderRadius) 0;
 }
 
 /*
@@ -3414,10 +3390,8 @@ input[type="range"]:focus {
   background-image: linear-gradient(
     to right,
     var(--sliderSelectedTrackBackgroundColor) 0%,
-    var(--sliderSelectedTrackBackgroundColor)
-      calc(1% * var(--value)),
-    var(--sliderTrackBackgroundColor)
-      calc(1% * var(--value)),
+    var(--sliderSelectedTrackBackgroundColor) calc(1% * var(--value)),
+    var(--sliderTrackBackgroundColor) calc(1% * var(--value)),
     var(--sliderTrackBackgroundColor) 100%
   );
 }
@@ -3476,9 +3450,9 @@ input[type="range"]:focus {
 .rux-range::-webkit-slider-thumb {
   -webkit-appearance: none;
 
-	position: relative;
-	top: calc( 1.25rem / -2);
-	top: calc( var(--thumbSize) / -2);
+  position: relative;
+  top: calc(1.25rem / -2);
+  top: calc(var(--thumbSize) / -2);
 
   height: 1.25rem;
 
@@ -3491,14 +3465,15 @@ input[type="range"]:focus {
   background-color: var(--sliderThumbBackgroundColor);
 
   cursor: pointer;
-  box-shadow: inset 0 0 1px 0 rgba(255, 255, 255, 0.9), 0 3px 5px rgba(0, 0, 0, 0.14), 0 1px 9px rgba(0, 0, 0, 0.12),
+  box-shadow: inset 0 0 1px 0 rgba(255, 255, 255, 0.9),
+    0 3px 5px rgba(0, 0, 0, 0.14), 0 1px 9px rgba(0, 0, 0, 0.12),
     0 1px 3px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0 0 1px 0 rgba(255, 255, 255, 0.9), var(--thumbShadow);
 
   outline: none !important;
 }
-.rux-range::-webkit-slider-thumb:hover{
-	border-color: var(--sliderHoverThumbBorderColor);
+.rux-range::-webkit-slider-thumb:hover {
+  border-color: var(--sliderHoverThumbBorderColor);
 }
 
 input:-moz-focusring {
@@ -3508,9 +3483,9 @@ input:-moz-focusring {
 .rux-range::-moz-range-thumb {
   -moz-appearance: none;
 
-	position: relative;
-	top: calc( 1.25rem / -2);
-	top: calc( var(--thumbSize) / -2);
+  position: relative;
+  top: calc(1.25rem / -2);
+  top: calc(var(--thumbSize) / -2);
 
   height: 1.25rem;
 
@@ -3523,12 +3498,13 @@ input:-moz-focusring {
   background-color: var(--sliderThumbBackgroundColor);
 
   cursor: pointer;
-  box-shadow: inset 0 0 1px 0 rgba(255, 255, 255, 0.9), 0 3px 5px rgba(0, 0, 0, 0.14), 0 1px 9px rgba(0, 0, 0, 0.12),
+  box-shadow: inset 0 0 1px 0 rgba(255, 255, 255, 0.9),
+    0 3px 5px rgba(0, 0, 0, 0.14), 0 1px 9px rgba(0, 0, 0, 0.12),
     0 1px 3px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0 0 1px 0 rgba(255, 255, 255, 0.9), var(--thumbShadow);
 }
-.rux-range::-moz-range-thumb:hover{
-	border-color:var(--sliderHoverThumbBorderColor);
+.rux-range::-moz-range-thumb:hover {
+  border-color: var(--sliderHoverThumbBorderColor);
 }
 
 .rux-range:disabled::-moz-range-thumb {
@@ -3537,8 +3513,8 @@ input:-moz-focusring {
 }
 
 .rux-range::-ms-thumb {
-	position: relative;
-	top: -10px;
+  position: relative;
+  top: -10px;
 
   height: 1.25rem;
   width: 1.25rem;
@@ -3548,7 +3524,8 @@ input:-moz-focusring {
   background-color: var(--sliderThumbBackgroundColor);
 
   cursor: pointer;
-  box-shadow: inset 0 0 1px 0 rgba(255, 255, 255, 0.9), 0 3px 5px rgba(0, 0, 0, 0.14), 0 1px 9px rgba(0, 0, 0, 0.12),
+  box-shadow: inset 0 0 1px 0 rgba(255, 255, 255, 0.9),
+    0 3px 5px rgba(0, 0, 0, 0.14), 0 1px 9px rgba(0, 0, 0, 0.12),
     0 1px 3px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0 0 1px 0 rgba(255, 255, 255, 0.9), var(--thumbShadow);
 }
@@ -3575,17 +3552,16 @@ input:-moz-focusring {
 .rux-range:not(:disabled)::-webkit-slider-thumb:active {
   border-color: var(--sliderSelectedThumbBorderColor);
   background-color: var(--inputBackground);
-	box-shadow: inset 0 0 0 4px var(--primary),
-    0 1px 3px rgba(0, 0, 0, 0.14), 0 1px 4px rgba(0, 0, 0, 0.12),
-    0 1px 1px rgba(0, 0, 0, 0.2);
-	box-shadow: var(--thumbShadowActive);
+  box-shadow: inset 0 0 0 4px var(--primary), 0 1px 3px rgba(0, 0, 0, 0.14),
+    0 1px 4px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--thumbShadowActive);
 }
 
 .rux-range:not(:disabled)::-webkit-slider-thumb:focus,
 .rux-range:not(:disabled)::-webkit-slider-thumb:hover:not(:active) {
   background-color: var(--sliderHoverThumbBackgroundColor);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.14),
-    0 1px 18px rgba(0, 0, 0, 0.12), 0 3px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.14), 0 1px 18px rgba(0, 0, 0, 0.12),
+    0 3px 5px rgba(0, 0, 0, 0.2);
   box-shadow: var(--thumbShadowHover);
 }
 
@@ -3620,12 +3596,11 @@ input:-moz-focusring {
 
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAAAgCAMAAABzRoe3AAAAgVBMVEUAAAD/tQv/swL/OTn/PDzftl9W8QBW8AAtzP8v0P9Z9gD/tAP/uQb/tAItzf8tzf+eqK2ep60uzP9X8QCfqK4uzf8uzf9X8QAuzP9X8ACeqK4vzP9Y8QAuzv9Y8gCeqq4wz/8xzv9A1f9Y8QD/tAP86DpW8AD/swL/ODgtzP+ep63tgXPUAAAAJXRSTlMAGNfAQAv98/IdG8Io52zz8+DZ2dC9trabm4F+a05OQjAaDG6dAJcYcwAAAfdJREFUWMPtmNlygkAQRScyrBp3QTZFNBj8/w9MCGI3dBOHMg9jyvOmVFnn1HUSULx4LibjN/HMTN7Po2cu+PY/cwUfPYg2XhKsbHsVJJ5gcaf+cjZb+lN3qJjxyWIw/lAwNMALreKKFTIJh215Y3sYFiD5AEn9oWBowM4uEPau65A6JcJJ/2ACg/pDwdCAo1W0sI6ixbTsMH18Akn9oWBgwK7xh4LWBmlJSB+dwCD+pEA5wLMLgo3OwcGpvzhxludZfH1Bz4EZrefzdWSqTSCJPylQDggLhhA+oD6/G7d+5W7qk9yV3C8uPyz2KhMYxJ8UKAd4Fhdg3SZwa3/4wLrA7fhfbuwVJpDEnxQoByQFS9I6wQ7ydR16js0FBCzMuxMY1J8WqAYEfEDQXPcr3RjbxNU7vsBEF0R0dwJJ/LkCxYAVH7Bqri8r3QzbZNU7S4FZ44B1/ymgA4zPfZwUA2w+wG6uzyrdHMvk1TszgZnjgLmgyL4T8Dbq8R+bWgUIgw4ABby/Vl8hIckAUMD7a3WIYQIYgC0Af73+jOIJpKAF1F+vf2QwAQxAC7C/ZrcSeAIpegvAX7ObOZgABiAF2F+322mYAAagBeCv2wMNTEAGIAWVv3aPlDABDMAW1P7aPdQjDBiALaj89ftZBSGl+LXgZIoXL/4VXyptNwzuHR/QAAAAAElFTkSuQmCC");
 
-  background-image: var(--statusSymbols, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAAAgCAMAAABzRoe3AAAAgVBMVEUAAAD/tQv/swL/OTn/PDzftl9W8QBW8AAtzP8v0P9Z9gD/tAP/uQb/tAItzf8tzf+eqK2ep60uzP9X8QCfqK4uzf8uzf9X8QAuzP9X8ACeqK4vzP9Y8QAuzv9Y8gCeqq4wz/8xzv9A1f9Y8QD/tAP86DpW8AD/swL/ODgtzP+ep63tgXPUAAAAJXRSTlMAGNfAQAv98/IdG8Io52zz8+DZ2dC9trabm4F+a05OQjAaDG6dAJcYcwAAAfdJREFUWMPtmNlygkAQRScyrBp3QTZFNBj8/w9MCGI3dBOHMg9jyvOmVFnn1HUSULx4LibjN/HMTN7Po2cu+PY/cwUfPYg2XhKsbHsVJJ5gcaf+cjZb+lN3qJjxyWIw/lAwNMALreKKFTIJh215Y3sYFiD5AEn9oWBowM4uEPau65A6JcJJ/2ACg/pDwdCAo1W0sI6ixbTsMH18Akn9oWBgwK7xh4LWBmlJSB+dwCD+pEA5wLMLgo3OwcGpvzhxludZfH1Bz4EZrefzdWSqTSCJPylQDggLhhA+oD6/G7d+5W7qk9yV3C8uPyz2KhMYxJ8UKAd4Fhdg3SZwa3/4wLrA7fhfbuwVJpDEnxQoByQFS9I6wQ7ydR16js0FBCzMuxMY1J8WqAYEfEDQXPcr3RjbxNU7vsBEF0R0dwJJ/LkCxYAVH7Bqri8r3QzbZNU7S4FZ44B1/ymgA4zPfZwUA2w+wG6uzyrdHMvk1TszgZnjgLmgyL4T8Dbq8R+bWgUIgw4ABby/Vl8hIckAUMD7a3WIYQIYgC0Af73+jOIJpKAF1F+vf2QwAQxAC7C/ZrcSeAIpegvAX7ObOZgABiAF2F+322mYAAagBeCv2wMNTEAGIAWVv3aPlDABDMAW1P7aPdQjDBiALaj89ftZBSGl+LXgZIoXL/4VXyptNwzuHR/QAAAAAElFTkSuQmCC"));
+  background-image: var(
+    --statusSymbols,
+    url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAAAgCAMAAABzRoe3AAAAgVBMVEUAAAD/tQv/swL/OTn/PDzftl9W8QBW8AAtzP8v0P9Z9gD/tAP/uQb/tAItzf8tzf+eqK2ep60uzP9X8QCfqK4uzf8uzf9X8QAuzP9X8ACeqK4vzP9Y8QAuzv9Y8gCeqq4wz/8xzv9A1f9Y8QD/tAP86DpW8AD/swL/ODgtzP+ep63tgXPUAAAAJXRSTlMAGNfAQAv98/IdG8Io52zz8+DZ2dC9trabm4F+a05OQjAaDG6dAJcYcwAAAfdJREFUWMPtmNlygkAQRScyrBp3QTZFNBj8/w9MCGI3dBOHMg9jyvOmVFnn1HUSULx4LibjN/HMTN7Po2cu+PY/cwUfPYg2XhKsbHsVJJ5gcaf+cjZb+lN3qJjxyWIw/lAwNMALreKKFTIJh215Y3sYFiD5AEn9oWBowM4uEPau65A6JcJJ/2ACg/pDwdCAo1W0sI6ixbTsMH18Akn9oWBgwK7xh4LWBmlJSB+dwCD+pEA5wLMLgo3OwcGpvzhxludZfH1Bz4EZrefzdWSqTSCJPylQDggLhhA+oD6/G7d+5W7qk9yV3C8uPyz2KhMYxJ8UKAd4Fhdg3SZwa3/4wLrA7fhfbuwVJpDEnxQoByQFS9I6wQ7ydR16js0FBCzMuxMY1J8WqAYEfEDQXPcr3RjbxNU7vsBEF0R0dwJJ/LkCxYAVH7Bqri8r3QzbZNU7S4FZ44B1/ymgA4zPfZwUA2w+wG6uzyrdHMvk1TszgZnjgLmgyL4T8Dbq8R+bWgUIgw4ABby/Vl8hIckAUMD7a3WIYQIYgC0Af73+jOIJpKAF1F+vf2QwAQxAC7C/ZrcSeAIpegvAX7ObOZgABiAF2F+322mYAAagBeCv2wMNTEAGIAWVv3aPlDABDMAW1P7aPdQjDBiALaj89ftZBSGl+LXgZIoXL/4VXyptNwzuHR/QAAAAAElFTkSuQmCC")
+  );
 }
-
-
-
-
 
 /* Specific Status Iconography */
 .rux-status--off,
@@ -3633,7 +3608,6 @@ input:-moz-focusring {
 .rux-status--off .rux-advanced-status__icon {
   background-position-x: -5rem;
 }
-
 
 .rux-status--standby,
 .rux-status-indicator.rux-status--standby,
@@ -3746,15 +3720,15 @@ input:-moz-focusring {
   padding: 0;
   height: 5.625rem;
 
-	user-select: none;
-	border-bottom: 5px solid var(--tabBorderColor);
+  user-select: none;
+  border-bottom: 5px solid var(--tabBorderColor);
 }
 
 .rux-tabs--small {
   height: 3.125rem;
-	font-size: 1.125rem;
-	font-size: var(--fontSizeXL);
-	border-bottom: 3px solid var(--tabBorderColor);
+  font-size: 1.125rem;
+  font-size: var(--fontSizeXL);
+  border-bottom: 3px solid var(--tabBorderColor);
 }
 
 .rux-tabs ul {
@@ -3821,12 +3795,11 @@ input:-moz-focusring {
 }
 
 .rux-tabs .rux-tab {
-	border-bottom: 5px solid var(--tabBorderColor);
+  border-bottom: 5px solid var(--tabBorderColor);
 }
 .rux-tabs .rux-tab {
-	border-bottom: 5px solid var(--tabBorderColor);
+  border-bottom: 5px solid var(--tabBorderColor);
 }
-
 
 /*
 **
@@ -3945,9 +3918,7 @@ input:-moz-focusring {
     url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6' height='6'%3E %3Cdefs%3E %3ClinearGradient id='a' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3E %3Cstop offset='0%25' stop-color='%23000'/%3E %3Cstop offset='100%25' stop-color='%23023861' stop-opacity='0'/%3E %3C/linearGradient%3E %3C/defs%3E %3Ccircle cx='3' cy='3' r='3' fill='url(%23a)' fill-rule='evenodd'/%3E %3C/svg%3E")
     center center no-repeat;
 
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5),
-    1px 0 2px rgba(0, 0, 0, 0.6)
-  ;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5), 1px 0 2px rgba(0, 0, 0, 0.6);
 
   box-shadow: var(
     --toggleButtonBoxShadow,
@@ -3975,9 +3946,7 @@ input:-moz-focusring {
 
 .rux-toggle--legacy__input:checked + .rux-toggle--legacy__button::after {
   left: 50%;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5),
-    -1px 0 2px rgba(0, 0, 0, 0.6)
-  ;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5), -1px 0 2px rgba(0, 0, 0, 0.6);
   box-shadow: var(
     --toggleButtonSelectedBoxShadow,
     0 0 3px rgba(0, 0, 0, 0.5),
@@ -4068,13 +4037,11 @@ input:-moz-focusring {
   transition: 0.167s left ease-in-out, 0.167s border-color ease-in-out;
 }
 
-
-
 .rux-toggle__input:disabled + .rux-toggle__button::after {
   background-color: var(--toggleDisabledThumbBackgroundColor);
-	border-color: var(--toggleDisabledThumbBorderColor);
-	cursor: not-allowed;
-	cursor: var(--disabledCursor);
+  border-color: var(--toggleDisabledThumbBorderColor);
+  cursor: not-allowed;
+  cursor: var(--disabledCursor);
 }
 
 .rux-toggle__input:checked + .rux-toggle__button::after {
@@ -4096,10 +4063,10 @@ input:-moz-focusring {
 }
 
 .rux-toggle__input:disabled + .rux-toggle__button {
-	opacity: 0.4;
-	opacity: var(--disabledOpacity);
-	cursor: not-allowed;
-	cursor: var(--disabledCursor);
+  opacity: 0.4;
+  opacity: var(--disabledOpacity);
+  cursor: not-allowed;
+  cursor: var(--disabledCursor);
 }
 
 .rux-tree {
@@ -4112,8 +4079,8 @@ input:-moz-focusring {
 
   font-size: 1rem;
 
-	color: var(--treeTextColor);
-	border:solid 1px var(--treeBorderColor);
+  color: var(--treeTextColor);
+  border: solid 1px var(--treeBorderColor);
   background-color: var(--treeBackgroundColor);
 
   -webkit-user-select: none;
@@ -4138,26 +4105,24 @@ input:-moz-focusring {
   list-style: none;
 }
 .rux-tree li {
-	font-weight: bold;
+  font-weight: bold;
 }
-
 
 /* Parent Elements */
 .rux-tree__parent {
   display: flex;
-	align-items: center;
-	padding: 0 0.5rem;
-	height: 2rem;
+  align-items: center;
+  padding: 0 0.5rem;
+  height: 2rem;
 }
 .rux-tree__parent:hover,
-:not([aria-selected='true']) > .rux-tree__parent:hover::after {
-	background: var(--treeHoverBackgroundColor);
-	color: var(--treeHoverTextColor);
+:not([aria-selected="true"]) > .rux-tree__parent:hover::after {
+  background: var(--treeHoverBackgroundColor);
+  color: var(--treeHoverTextColor);
 }
-:not([aria-selected='true']) > .rux-tree__parent:hover .rux-tree__arrow::after {
-	border-color: transparent transparent transparent var(--treeHoverTextColor);
+:not([aria-selected="true"]) > .rux-tree__parent:hover .rux-tree__arrow::after {
+  border-color: transparent transparent transparent var(--treeHoverTextColor);
 }
-
 
 .rux-tree__label {
   flex-grow: 1;
@@ -4187,8 +4152,7 @@ input:-moz-focusring {
   height: 0;
   border-style: solid;
   border-width: 7px 0 7px 7px;
-  border-color: transparent transparent transparent
-    var(--treeAccentColor);
+  border-color: transparent transparent transparent var(--treeAccentColor);
   display: inline-block;
 }
 
@@ -4219,35 +4183,46 @@ input:-moz-focusring {
   height: auto;
 }
 
-[aria-expanded='true'][aria-level='1']:not([aria-selected="true"]) > .rux-tree__parent:after {
-	border-bottom:solid 1px var(--treeExpandedBorderColor);
+[aria-expanded="true"][aria-level="1"]:not([aria-selected="true"])
+  > .rux-tree__parent:after {
+  border-bottom: solid 1px var(--treeExpandedBorderColor);
 }
 
 .rux-tree .selected,
-[aria-selected='true'] > .rux-tree__parent::after,
-[aria-selected='true'] > .rux-tree__parent:hover::after {
+[aria-selected="true"] > .rux-tree__parent::after,
+[aria-selected="true"] > .rux-tree__parent:hover::after {
   background-color: var(--treeSelectedBackgroundColor);
   box-shadow: inset 0.25rem 0 0 var(--treeSelectedAccentColor);
   color: var(--treeSelectedTextColor);
 }
 
 .rux-tree .selected .rux-tree__arrow::after {
-  border-color: transparent transparent transparent var(--treeSelectedAccentColor);
+  border-color: transparent transparent transparent
+    var(--treeSelectedAccentColor);
 }
 
-[aria-selected='true'] > .rux-tree__parent::after {
-	border-top: 1px solid var(--treeSelectedBorderColor);
-	border-bottom: 1px solid var(--treeSelectedBorderColor);
+[aria-selected="true"] > .rux-tree__parent::after {
+  border-top: 1px solid var(--treeSelectedBorderColor);
+  border-bottom: 1px solid var(--treeSelectedBorderColor);
 }
 
-li[aria-selected="true"] > .rux-tree__children li:not([aria-selected="undefined"]) .rux-tree__parent:hover:after {
-	box-shadow: inset 0.25rem 0 0 var(--treeSelectedAccentColor) !important;
-	background-color: var(--treeHoverBackgroundColor) !important;
-	
+li[aria-selected="true"]
+  > .rux-tree__children
+  li:not([aria-selected="undefined"])
+  .rux-tree__parent:hover:after {
+  box-shadow: inset 0.25rem 0 0 var(--treeSelectedAccentColor) !important;
+  background-color: var(--treeHoverBackgroundColor) !important;
 }
-li[aria-selected="true"] > .rux-tree__children li:not([aria-selected="undefined"]) .rux-tree__parent:hover {
-	color: var(--treeHoverTextColor);
+li[aria-selected="true"]
+  > .rux-tree__children
+  li:not([aria-selected="undefined"])
+  .rux-tree__parent:hover {
+  color: var(--treeHoverTextColor);
 }
-li[aria-selected="true"] > .rux-tree__children li:not([aria-selected="undefined"]) .rux-tree__parent:hover .rux-tree__arrow:after {
-	border-color: transparent transparent transparent var(--treeHoverTextColor);
+li[aria-selected="true"]
+  > .rux-tree__children
+  li:not([aria-selected="undefined"])
+  .rux-tree__parent:hover
+  .rux-tree__arrow:after {
+  border-color: transparent transparent transparent var(--treeHoverTextColor);
 }
