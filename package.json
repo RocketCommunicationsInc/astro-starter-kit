@@ -16,7 +16,11 @@
   },
   "homepage": "https://github.com/RocketCommunicationsInc/astro-starter-kit#readme",
   "dependencies": {
-    "lit-element": "^2.4.0",
-    "astro-components": "github:RocketCommunicationsInc/astro-components"
+    "astro-components": "github:RocketCommunicationsInc/astro-components",
+    "lit-element": "^2.4.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.5.0"
   }
 }
