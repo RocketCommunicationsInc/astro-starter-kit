@@ -22,40 +22,45 @@ const server = http.createServer((req, res) => {
   console.log("Request for " + req.url + " by method " + req.method);
 
   if (req.method == "GET") {
-    var fileUrl;
+    let fileUrl;
     if (req.url == "/") fileUrl = "/index.html";
     else fileUrl = req.url;
 
-    var filePath = path.resolve("./public" + fileUrl);
-    const fileExt = path.extname(filePath);
+    let publicPath = path.resolve("./public" + fileUrl);
+
+    const fileExt = path.extname(publicPath);
     if (fileExt == ".html") {
-      fs.exists(filePath, (exists) => {
+      fs.exists(publicPath, (exists) => {
         if (!exists) {
-          filePath = path.resolve("./public/404.html");
+          publicPath = path.resolve("./public/404.html");
           res.statusCode = 404;
           res.setHeader("Content-Type", "text/html");
-          fs.createReadStream(filePath).pipe(res);
+          fs.createReadStream(publicPath).pipe(res);
           return;
         }
         res.statusCode = 200;
         res.setHeader("Content-Type", "text/html");
-        fs.createReadStream(filePath).pipe(res);
+        fs.createReadStream(publicPath).pipe(res);
       });
     } else if (fileExt == ".css") {
       res.statusCode = 200;
       res.setHeader("Content-Type", "text/css");
-      fs.createReadStream(filePath).pipe(res);
+      fs.createReadStream(publicPath).pipe(res);
+    } else if (fileExt == ".js") {
+      res.statusCode = 200;
+      res.setHeader("Content-Type", "application/javascript");
+      fs.createReadStream(publicPath).pipe(res);
     } else {
-      filePath = path.resolve("./public/404.html");
+      publicPath = path.resolve("./public/404.html");
       res.statusCode = 404;
       res.setHeader("Content-Type", "text/html");
-      fs.createReadStream(filePath).pipe(res);
+      fs.createReadStream(publicPath).pipe(res);
     }
   } else {
-    filePath = path.resolve("./public/404.html");
+    publicPath = path.resolve("./public/404.html");
     res.statusCode = 404;
     res.setHeader("Content-Type", "text/html");
-    fs.createReadStream(filePath).pipe(res);
+    fs.createReadStream(publicPath).pipe(res);
   }
 });
 

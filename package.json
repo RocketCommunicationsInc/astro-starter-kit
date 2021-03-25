@@ -2,10 +2,9 @@
   "name": "astro-starter-kit",
   "version": "1.0.0",
   "description": "For Building Astro Applications via NPM with minimal dependencies",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -17,6 +16,7 @@
   },
   "homepage": "https://github.com/RocketCommunicationsInc/astro-starter-kit#readme",
   "dependencies": {
-    "lit-element": "^2.4.0"
+    "lit-element": "^2.4.0",
+    "astro-components": "github:RocketCommunicationsInc/astro-components"
   }
 }
