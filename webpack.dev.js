@@ -1,3 +1,4 @@
+const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
@@ -7,24 +8,26 @@ module.exports = {
     contact: "./src/pages/contact/contact.js",
   },
 
-  // https://webpack.js.org/configuration/dev-server/
-  devServer: {
-    port: 8080,
-  },
-
   // https://webpack.js.org/concepts/plugins/
   plugins: [
+    // For index.html
     new HtmlWebpackPlugin({
+      // HTML template
       template: "./src/pages/index/index.html",
       inject: true,
+      // input script cited in entry above
       chunks: ["index"],
+      // output file
       filename: "index.html",
+      favicon: "./src/static/favicon.ico",
     }),
+    // For contact.html
     new HtmlWebpackPlugin({
       template: "./src/pages/contact/contact.html",
       inject: true,
       chunks: ["contact"],
-      filename: "contacts.html",
+      filename: "contact.html",
+      favicon: "./src/static/favicon.ico",
     }),
   ],
   module: {
