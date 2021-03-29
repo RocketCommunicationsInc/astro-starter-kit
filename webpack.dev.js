@@ -7,7 +7,11 @@ module.exports = {
     contact: "./src/pages/contact/contact.js",
   },
 
+  // https://webpack.js.org/configuration/devtool/
+  devtool: "inline-source-map",
+
   // https://webpack.js.org/concepts/plugins/
+  // NOTE: Each new HtmlWebpackPlugin will create a new html page
   plugins: [
     // For index.html
     new HtmlWebpackPlugin({
