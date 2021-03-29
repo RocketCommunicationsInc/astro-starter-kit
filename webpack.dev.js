@@ -1,4 +1,3 @@
-const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
@@ -12,10 +11,10 @@ module.exports = {
   plugins: [
     // For index.html
     new HtmlWebpackPlugin({
-      // HTML template
+      // HTML template file
       template: "./src/pages/index/index.html",
       inject: true,
-      // input script cited in entry above
+      // input script cited in entry above. NOTE: Add more scripts if needed
       chunks: ["index"],
       // output file
       filename: "index.html",
