@@ -11,10 +11,10 @@ Open a terminal and type commands to
 1. Create directory for application
 2. Copy/Download files
 
-```
-mkdir My-App
-git clone https://github.com/RocketCommunicationsInc/astro-starter-kit.git
-```
+   ```
+   mkdir My-App
+   git clone https://github.com/RocketCommunicationsInc/astro-starter-kit.git
+   ```
 
 3. Change directory into the project and install dependencies
    **Note: Node.JS and NPM are required.** Can be installed from [this link](https://nodejs.org/en/download/)
@@ -25,17 +25,25 @@ git clone https://github.com/RocketCommunicationsInc/astro-starter-kit.git
    ```
 
 4. Start Dev Server and Start Coding
-   `npm start`
+
+   ```
+   npm start
+   ```
 
 5. When ready for release build a production preview to test and then deloy to your own server
 
-   By default, production code will be created in the public directory. Simply add the files to your web host.
+   By default, production code will be created in the dist directory. Simply add the files to your web host.
 
    - Preview Build - Will run a production build and then start http-server locally on the build files
-     `npm run preview`
+
+     ```
+     npm run preview
+     ```
 
    - Production Build
-     `npm run build`
+     ```
+     npm run build
+     ```
 
 ## Directory Structure
 
@@ -76,5 +84,5 @@ Astro Starter-Kit
 - dist - Directory for all production file output
 - node_modules - Houses all dependencies. NPM builds this directory automatically when running `npm i`
 - package.json - NPM build information for the application
-  - webpack...js - Tells webpack how to build the application for each environment
+- webpack.dev.js/webpack.prod.js - Tells webpack how to build the application for each environment
   - NOTE: Place to add or modify plugins/tools, as well as a new page for the application. **_See notes in file_**
