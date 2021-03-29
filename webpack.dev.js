@@ -11,7 +11,7 @@ module.exports = {
   devtool: "inline-source-map",
 
   // https://webpack.js.org/concepts/plugins/
-  // NOTE: Each new HtmlWebpackPlugin will create a new html page
+  // NOTE: Each new HtmlWebpackPlugin instance will create a new html page
   plugins: [
     // For index.html
     new HtmlWebpackPlugin({

@@ -13,11 +13,22 @@ module.exports = {
     contact: "./src/pages/contact/contact.js",
   },
 
-  // https://webpack.js.org/configuration/dev-server/
-  devServer: {
-    contentBase: path.join(__dirname, "public"),
-    compress: true,
-    port: 8080,
+  // This option controls if and how source maps are generated.
+  // https://webpack.js.org/configuration/devtool/
+  devtool: "source-map",
+
+  // how to write the compiled files to disk
+  // https://webpack.js.org/concepts/output/
+  output: {
+    filename: "[name].bundle.js",
+    path: path.resolve(__dirname, "dist"),
+  },
+
+  // https://webpack.js.org/guides/code-splitting/#prevent-duplication
+  optimization: {
+    splitChunks: {
+      chunks: "all",
+    },
   },
 
   // https://webpack.js.org/concepts/plugins/
@@ -61,7 +72,7 @@ module.exports = {
 };
 
 /*
-    Example adding optimizing packages
+    EXAMPLE with added optimizing packages
     FROM: https://www.ivarprudnikov.com/static-website-multiple-html-pages-using-webpack-plus-github-example/
 
     const path = require('path');
