@@ -5,6 +5,6 @@ import "./index.css";
 
 const astroApp = document.getElementById("astro-app");
 // Set theme by Class (dark-theme/light-theme)
-astroApp.classList.add("dark-theme");
+astroApp.classList.add("light-theme");
 
 astroApp.insertBefore(globalStatusBar(), astroApp.firstChild);
