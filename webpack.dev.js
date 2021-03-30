@@ -19,6 +19,7 @@ module.exports = {
       template: "./src/pages/index/index.html",
       inject: true,
       // input script cited in entry above. NOTE: Add more scripts if needed
+      // Scripts are processed in order
       chunks: ["index"],
       // output file
       filename: "index.html",
@@ -34,6 +35,7 @@ module.exports = {
     }),
   ],
   module: {
+    // Webpack process for translating imports of each file, processed in order
     rules: [
       {
         test: /\.css$/,

@@ -1,7 +1,7 @@
 {
   "name": "astro-starter-kit",
   "version": "1.0.0",
-  "description": "For Building Astro Applications via NPM with minimal dependencies",
+  "description": "Template to build an HTML/CSS/JS Astro Application",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
