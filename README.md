@@ -13,14 +13,14 @@ Open a terminal and type commands to
 
    ```
    mkdir My-App
+   cd My-App
    git clone https://github.com/RocketCommunicationsInc/astro-starter-kit.git
    ```
 
-3. Change directory into the project and install dependencies
+3. Install dependencies
    **Note: Node.JS and NPM are required.** Can be installed from [this link](https://nodejs.org/en/download/)
 
    ```
-   cd My-App
    npm i
    ```
 
@@ -35,10 +35,11 @@ Open a terminal and type commands to
    By default, production code will be created in the dist directory. Simply add the files to your web host.
 
    - Preview Build - Will run a production build and then start http-server locally on the build files
+   - NOTE: App will be accessible from http://localhost:8080/
 
-     ```
-     npm run preview
-     ```
+   ```
+   npm run preview
+   ```
 
    - Production Build
      ```
