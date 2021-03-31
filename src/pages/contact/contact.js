@@ -1,6 +1,6 @@
 import globalStatusBar from "../../components/ruxGlobalStatusBar/ruxGlobalStatusBar";
 
-import "../../static/css/astro.css";
+import "../../static/css/astro.min.css";
 import "./contact.css";
 
 // Set theme by Class (dark-theme/light-theme)
