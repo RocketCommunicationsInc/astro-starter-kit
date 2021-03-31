@@ -87,3 +87,43 @@ Astro Starter-Kit
 - package.json - NPM build information for the application
 - webpack.dev.js/webpack.prod.js - Tells webpack how to build the application for each environment
   - NOTE: Place to add or modify plugins/tools, as well as a new page for the application. **_See notes in file_**
+
+## How to Add additional Pages
+
+1. Create base files for use on your new page.
+   a. If using default conventions create a new directory under src/pages
+   b. Create the needed files - [page name].html - Base HTML template for the new file - [page name].css - Custom styles for the new page if needed - [page name].js - Import css and add astro components
+
+2. Update webpack.dev.js and webpack.prod.js with new page
+   a. Add js file to entry if needed
+   b. Add new HtmlWebpackPlugin instance to plugins array
+
+   **Example addition of a new page called home**
+
+   ```
+   entry: {
+       ...
+       home: "./src/pages/home/home.js
+   },
+   ...
+   plugins:[
+       ...
+
+       new HtmlWebpackPlugin({
+       template: "./src/pages/index/home.html", // HTML template
+       inject: true,
+       chunks: ["home"], // input script name in entry above
+       filename: "home.html", // output file
+       favicon: "./src/static/favicon.ico",
+       }),
+   ]
+
+   ```
+
+## Considerations and Suggestions
+
+- Add additional optimization scripts/plugins. This package intentionally left out some optimizations to reduce dependencies. Recommendations include:
+  **Note: Example shown in webpack.prod.js**
+  - CSS Optimization
+  - Tree-shaking
+- Babel for Javascript ES5 conversion for older browser support
