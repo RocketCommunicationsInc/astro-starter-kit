@@ -3,8 +3,9 @@ import globalStatusBar from "../../components/ruxGlobalStatusBar/ruxGlobalStatus
 import "../../static/css/astro.css";
 import "./index.css";
 
-const astroApp = document.getElementById("astro-app");
 // Set theme by Class (dark-theme/light-theme)
-astroApp.classList.add("light-theme");
+document.body.classList.add("dark-theme");
+
+const astroApp = document.getElementById("astro-app");
 
 astroApp.insertBefore(globalStatusBar(), astroApp.firstChild);
