@@ -91,12 +91,14 @@ Astro Starter-Kit
 ## How to Add additional Pages
 
 1. Create base files for use on your new page.
-   a. If using default conventions create a new directory under src/pages
-   b. Create the needed files - [page name].html - Base HTML template for the new file - [page name].css - Custom styles for the new page if needed - [page name].js - Import css and add astro components
+
+   1. If using default conventions create a new directory under src/pages
+   2. Create the needed files - [page name].html - Base HTML template for the new file - [page name].css - Custom styles for the new page if needed - [page name].js - Import css and add astro components
 
 2. Update webpack.dev.js and webpack.prod.js with new page
-   a. Add js file to entry if needed
-   b. Add new HtmlWebpackPlugin instance to plugins array
+
+   1. Add js file to entry if needed
+   2. Add new HtmlWebpackPlugin instance to plugins array
 
    **Example addition of a new page called home**
 
