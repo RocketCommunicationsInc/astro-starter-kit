@@ -93,7 +93,10 @@ Astro Starter-Kit
 1. Create base files for use on your new page.
 
    1. If using default conventions create a new directory under src/pages
-   2. Create the needed files - [page name].html - Base HTML template for the new file - [page name].css - Custom styles for the new page if needed - [page name].js - Import css and add astro components
+   2. Create the needed files
+      - [page name].html - Base HTML template for the new file
+      - [page name].css - Custom styles for the new page if needed
+      - [page name].js - Import css and add astro components
 
 2. Update webpack.dev.js and webpack.prod.js with new page
 
