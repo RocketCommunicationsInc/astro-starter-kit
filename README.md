@@ -37,9 +37,9 @@ Open a terminal and type commands to
    - Preview Build - Will run a production build and then start http-server locally on the build files
    - NOTE: App will be accessible from http://localhost:8080/
 
-   ```
-   npm run preview
-   ```
+      ```
+      npm run preview
+      ```
 
    - Production Build
      ```
@@ -127,8 +127,8 @@ Astro Starter-Kit
 
 ## Considerations and Suggestions
 
-- Add additional optimization scripts/plugins. This package intentionally left out some optimizations to reduce dependencies. Recommendations include:
-  **Note: Example shown in webpack.prod.js**
-  - CSS Optimization
-  - Tree-shaking
+- Add additional optimization scripts/plugins. This package intentionally left out some optimizations to reduce dependencies. **Note: Example shown in webpack.prod.js**
+  - Recommendations include:
+     - CSS Optimization
+     - Tree-shaking
 - Babel for Javascript ES5 conversion for older browser support
